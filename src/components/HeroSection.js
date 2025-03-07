@@ -4,6 +4,8 @@ import PText from "./PText";
 import Button from "./Button";
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import { MdOutlineAccountBalance } from "react-icons/md";
+import { FaBalanceScale } from "react-icons/fa";
 import styled from "styled-components";
 
 const HeroStyles = styled.div`
@@ -61,10 +63,97 @@ const HeroStyles = styled.div`
 .hero__scrollDown {
     width: 50px;
     p {
-        font-size: 1.6rem;
+        font-size: 2rem;
         transform: translateY(-70px) rotate(90deg);
+        letter-spacing: 0.4rem;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
+    img {
+        max-height: 45px;
+        width: 16px;
+        margin: 0 auto;
+        object-fit: contain;
+        margin-top: 6rem;
+        
     }
 }
+.hero__scrollDown {
+    img {
+        max-height: 70px;
+    }
+}
+.hero__social__text {
+    ul {
+        li {
+            margin-bottom: 1rem;
+        }
+        a {
+            display: inline-block;
+            font-size: 1.6rem;
+            transform: rotate(-270deg);
+            letter-spacing: 5px;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        min-height: 750px;
+    }
+    .hero__heading {
+        font-size: 1.4rem;
+        margin-bottom: -3rem;
+        .hero__name {
+            font-size: 4.5rem;
+        }
+    }
+    .hero__img {
+        height: 300px;
+    }
+    .hero__info {
+        margin-top: 3rem;
+    }
+    .hero__social {
+        left: 0px;
+        bottom: 15%;
+        width: 20px;
+        .hero__social__indicator, {
+            width: 20px;
+            
+            p {
+                font-size: 1.7rem;
+                
+            }
+            img {
+                max-height: 60px;
+            }
+        }
+        .hero__social__text {
+            ul {
+                li {
+                    a {
+                        font-size: 1.2rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+                
+            }
+        }
+    }
+    .hero__scrollDown {
+        right: 0;
+        width: 20px;
+        gap: 1rem;
+        p {
+            font-size: 1.3rem;
+        }
+    }
+    
+}
+
+
 `;
 
 export default function HeroSection() {
@@ -85,44 +174,18 @@ export default function HeroSection() {
                 </div>
                 <div className="hero__social">
                     <div className="hero__social__indicator">
-                        <p>SIGUEME</p>
+                        <p>CONTACTANOS</p>
                         <img src={SocialMediaArrow} alt="social media arrow"/>
                     </div>
-                    <div className="hero_social_text">
-                        <ul>
-                            <li>
-                                <a 
-                                href="http://facebook.com/webcifar"
-                                target="_blank"
-                                rel="noneferrer noreferrer"
-                                >
-                                    FB
-                                </a>
-                            </li>
-                            <li>
-                                <a 
-                                href="http://facebook.com/webcifar"
-                                target="_blank"
-                                rel="noneferrer noreferrer"
-                                >
-                                    TW
-                                </a>
-                            </li>
-                            <li>
-                                <a 
-                                href="http://facebook.com/webcifar"
-                                target="_blank"
-                                rel="noneferrer noreferrer"
-                                >
-                                    IN
-                                </a>
-                            </li>
-                        </ul>
+                    <div className="hero__social__text">
+                    <div className="hero__social__indicator">
+                        <FaBalanceScale />
+                    </div>
                     </div>
                 </div>
                 <div className="hero__scrollDown">
-                    <p>SUBTITULO</p>
-                    {/*<img src={ScrollDownArrow} alt=""/>*/}
+                    <p>ASESORIAS</p>
+                    <MdOutlineAccountBalance />
                 </div>
             </div>
         </div>

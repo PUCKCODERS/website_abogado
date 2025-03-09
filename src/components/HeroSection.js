@@ -169,9 +169,9 @@ export default function HeroSection() {
                     <img src={HeroImg} alt=""/>
                 </div>
                 <div className="hero__info">
-                <PText>"GABRIEL RODRÍGUEZ, ABOGADO CON AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO. 
+                <PText>GABRIEL RODRÍGUEZ, ABOGADO CON AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO. 
                 BRINDO ASESORÍA LEGAL PERSONALIZADA, ÉTICA Y EFICAZ PARA PROTEGER SUS DERECHOS E INTERESES.</PText>
-                <Button btnLink="/projects" btnText="ESPECIALIDADES" />
+                <Button btnLink="/projects" btnText="AREAS LEGALES" />
                 </div>
                 <div className="hero__social">
                     <div className="hero__social__indicator">

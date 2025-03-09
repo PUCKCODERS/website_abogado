@@ -1,12 +1,36 @@
 import React from "react";
-import { MdDesktopMac } from 'react-icons/md';
+import { FaBalanceScale } from "react-icons/fa"; // Balanza de la justicia
+import PText from './PText';
+import styled from "styled-components";
 
-export default function ServicesSectionItem(){
+const ItemStyles = styled.div`
+    text-align: center;
+    .servicesItem__icon {
+        svg {
+            width: 3rem;
+        }
+    }
+
+    .servicesItem__title {
+        font-size: 2rem;
+        font-family: 'Montserrat SemiBold';
+    }
+
+    .para {
+        margin-top: 1.5rem;
+    }
+`;
+
+export default function ServicesSectionItem({
+    icon = <FaBalanceScale/>,
+    title = 'ASESORÍA Y CONSULTORÍA LEGAL',
+    desc = "BRINDAR ORIENTACIÓN LEGAL PERSONALIZADA SOBRE DISTINTOS TEMAS JURÍDICOS, AYUDANDO A LOS CLIENTES A COMPRENDER SUS DERECHOS Y OPCIONES ANTES DE TOMAR DECISIONES LEGALES."
+}){
     return (
-        <div>
-            <div className="servicesItem__icon">
-                <MdDesktopMac></MdDesktopMac>
-            </div>
-        </div>
+        <ItemStyles>
+            <div className="servicesItem__icon">{icon}</div>
+            <div className="servicesItem__title">{title}</div>
+            <PText>{desc}</PText>
+        </ItemStyles>
     )
 }

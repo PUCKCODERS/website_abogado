@@ -130,7 +130,7 @@ export default function NavMenu() {
                 role="button"
                 onKeyDown={() => SetShowNav(!showNav)}
                 tabIndex={0}
-                >ESPECIALIDADES</NavLink>
+                >AREAS LEGALES</NavLink>
                 </li>
                 <li>
                 <NavLink to="/contact"

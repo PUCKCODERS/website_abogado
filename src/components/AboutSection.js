@@ -80,10 +80,10 @@ export default function AboutSection(){
                         heading="SOBRE MI"
                     />
                     <PText>
-                    "PROFESIONAL DEL DERECHO CON EXPERIENCIA EN MÚLTIPLES ÁREAS LEGALES, 
+                    PROFESIONAL DEL DERECHO CON EXPERIENCIA EN MÚLTIPLES ÁREAS LEGALES, 
                     COMPROMETIDO CON BRINDAR SOLUCIONES EFECTIVAS Y UN ASESORAMIENTO PERSONALIZADO. 
                     SU OBJETIVO ES DEFENDER LOS DERECHOS DE SUS CLIENTES CON ÉTICA, 
-                    TRANSPARENCIA Y DEDICACIÓN. DISPONIBLE PARA CONSULTAS Y REPRESENTACIÓN LEGAL."
+                    TRANSPARENCIA Y DEDICACIÓN. DISPONIBLE PARA CONSULTAS Y REPRESENTACIÓN LEGAL.
                     </PText>
                     <div className="aboutSection__buttons">
                         <Button btnLink="/projects" btnText="AREAS" />

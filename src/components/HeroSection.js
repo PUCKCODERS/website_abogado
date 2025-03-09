@@ -29,7 +29,7 @@ const HeroStyles = styled.div`
     }
     .hero__name {
         font-size: 5.5rem;
-        font-family: 'RobotoMono Regular';
+        font-family: 'Montserrat Bold';
         color: var(--white);
     }
 }
@@ -169,7 +169,8 @@ export default function HeroSection() {
                     <img src={HeroImg} alt=""/>
                 </div>
                 <div className="hero__info">
-                <PText>ESTE ES MY TEXTO</PText>
+                <PText>"GABRIEL RODRÍGUEZ, ABOGADO CON AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO. 
+                BRINDO ASESORÍA LEGAL PERSONALIZADA, ÉTICA Y EFICAZ PARA PROTEGER SUS DERECHOS E INTERESES.</PText>
                 <Button btnLink="/projects" btnText="ESPECIALIDADES" />
                 </div>
                 <div className="hero__social">

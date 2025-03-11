@@ -28,9 +28,9 @@ const ProjectSectionStyle = styled.div`
         width: 50px;
         background-color: var(--deep-dark);
         z-index: 10;
-        right: 60px;
+        right: auto;
         left: auto;
-        top: 0;
+        top: 30%;
         transform: translateY(50%);
         color: var(--gray-1);
         border-radius: 8px;

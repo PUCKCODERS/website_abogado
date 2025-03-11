@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         
       </Routes>
+      <Footer/>
     </Router>
   );
 }

@@ -78,7 +78,7 @@ export default function Projects() {
                             type="text"
                             value={searchText}
                             onChange={handleChange}
-                            placeholder="AREA LEGAL"
+                            placeholder="ESCRIBA...."
                         />
                         <MdSearch className="searchIcon"/>
                     </form>

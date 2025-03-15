@@ -6,6 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Penal from './pages/Penal';
 
 
 export default function App() {
@@ -13,7 +14,8 @@ export default function App() {
     <Router>
       <NavMenu />
       <Routes>
-        
+
+        <Route path='/penal' element={<Penal />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />

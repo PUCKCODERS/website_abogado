@@ -103,7 +103,7 @@ export default function About() {
                             asegurando que mis clientes reciban asesoría basada en la legislación más reciente y efectiva.
                             </PText>
                         </div>
-                        <Button btnText="DESCARGAR CV" btnLink="#" />
+                       
                     </div>
                     <div className="right">
                         <img src={AboutImg} alt="Gabriel Rodriguez img"/>

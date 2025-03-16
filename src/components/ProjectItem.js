@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 
 const ProjectItemStyles = styled.div`
+    
     .projectItem__img {
         width: 100%;
         height: 400px;
@@ -15,6 +16,7 @@ const ProjectItemStyles = styled.div`
         box-shadow: 12px 6px 18px #000;
         img {
             height: 100%;
+            
         }
     }
     .projectItem__info {
@@ -42,18 +44,20 @@ const ProjectItemStyles = styled.div`
 export default function ProjectItem({
     img = projectImg,
     title = 'Project Name',
-    desc = 'GABRIEL RODRÍGUEZ, ABOGADO CON AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO. BRINDO ASESORÍA LEGAL 316'
+    desc = 'GABRIEL RODRÍGUEZ, ABOGADO CON AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO. BRINDO ASESORÍA LEGAL 316',
+    navLink
 }) {
     return (
         <ProjectItemStyles>
-            <Link to="/projects" className="projectItem__img">
+            <Link to={navLink} className="projectItem__img">
                 <img src={img} alt="project img" />
             </Link>
             <div className="projectItem__info">
-                <Link to="#">
+                <Link to={navLink}>
                     <h3 className="projectItem__title">{title}</h3>
                 </Link>
                 <p className="projectItem__desc">{desc}</p>
+                {navLink && <a href={navLink}></a>}
             </div>
         </ProjectItemStyles>
     )

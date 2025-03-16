@@ -80,9 +80,11 @@ export default function ProjectsSection() {
                             return (
                                 <SwiperSlide key={project.id}>
                                     <ProjectItem
+                                    navLink={project.navLink}
                                     title={project.name}
                                     img={project.img}
                                     desc={project.desc}
+                                    
                                     />
                                 </SwiperSlide>
                             );

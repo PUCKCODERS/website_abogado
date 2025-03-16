@@ -21,7 +21,6 @@ const FormStyles = styled.form`
         border: none;
         border-radius: 8px;
         margin-top: 1rem;
-        box-shadow: 17px 11px 23px #000;
     }
     textarea {
         min-height: 250px;

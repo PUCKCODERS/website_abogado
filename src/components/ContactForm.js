@@ -18,9 +18,10 @@ const FormStyles = styled.form`
         color: var(--gray-1);
         background-color: var(--deep-dark);
         outline: none;
-        border: none;
+        border: 2px solid var(--gray-1);
         border-radius: 8px;
         margin-top: 1rem;
+        box-shadow: 17px 11px 23px #000;
     }
     textarea {
         min-height: 250px;

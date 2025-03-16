@@ -6,6 +6,7 @@ import AboutImg from "../assets/images/about-page-img.png"
 import AboutInfoItem from "../components/AboutInfoItem";
 import styled from "styled-components";
 import ContactBanner from "../components/ContactBanner";
+import Advantages from "../components/Advantages";
 
 const AboutPageStyles = styled.div`
     padding: 20rem 0 10rem 0;
@@ -109,57 +110,7 @@ export default function About() {
                         <img src={AboutImg} alt="Gabriel Rodriguez img"/>
                     </div>
                 </div>
-                <div className="about__info__items">
-                    <div className="about__info__item">
-                        <h1 className="about__info__heading">EDUCACION</h1>
-                        <AboutInfoItem 
-                        title="ESCUELA"
-                        items={['FRANCISCO ZURITA GUAYASAMIN']}
-                        />
-                        <AboutInfoItem 
-                        title="COLEGIO"
-                        items={['MARIA AUGUSTA URRUTIA DE ESCUDERO']}
-                        />
-                        <AboutInfoItem 
-                        title="UNIVERSIDAD"
-                        items={['UNIVERSIDAD CENTRAL DE ECUADOR']}
-                        />
-                    </div>
-                </div>
-                <div className="about__info__items">
-                    <div className="about__info__item">
-                        <h1 className="about__info__heading">EDUCACION</h1>
-                        <AboutInfoItem 
-                        title="ESCUELA"
-                        items={['FRANCISCO ZURITA GUAYASAMIN']}
-                        />
-                        <AboutInfoItem 
-                        title="COLEGIO"
-                        items={['MARIA AUGUSTA URRUTIA DE ESCUDERO']}
-                        />
-                        <AboutInfoItem 
-                        title="UNIVERSIDAD"
-                        items={['UNIVERSIDAD CENTRAL DE ECUADOR']}
-                        />
-                    </div>
-                </div>
-                <div className="about__info__items">
-                    <div className="about__info__item">
-                        <h1 className="about__info__heading">EDUCACION</h1>
-                        <AboutInfoItem 
-                        title="ESCUELA"
-                        items={['FRANCISCO ZURITA GUAYASAMIN']}
-                        />
-                        <AboutInfoItem 
-                        title="COLEGIO"
-                        items={['MARIA AUGUSTA URRUTIA DE ESCUDERO']}
-                        />
-                        <AboutInfoItem 
-                        title="UNIVERSIDAD"
-                        items={['UNIVERSIDAD CENTRAL DE ECUADOR']}
-                        />
-                    </div>
-                </div>
+                <Advantages />
             </div>
             <ContactBanner />
         </AboutPageStyles>

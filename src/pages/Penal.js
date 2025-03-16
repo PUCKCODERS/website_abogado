@@ -139,9 +139,9 @@ export default function Penal() {
                 </div>
             </div>
             <div className="container">
-                        <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
-                        </p>
+                <p className="about__subheading__up">
+                     <span>EXPERTO PENALISTA EN CASOS DE</span>
+                </p>
                 <div className="top-section">
                     
                     <div className="left__left">

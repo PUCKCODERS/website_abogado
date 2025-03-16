@@ -11,6 +11,7 @@ const ItemStyles = styled.div`
     gap: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
+    box-shadow: 17px 11px 23px #000;
     .icon {
         color: var(--white);
         background-color: var(--gray-2);

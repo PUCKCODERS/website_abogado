@@ -31,6 +31,7 @@ const PenalPageStyles = styled.div`
     .left__left {
         flex: 2;
         
+        
     }
     
     .about__subheading {
@@ -63,6 +64,8 @@ const PenalPageStyles = styled.div`
         margin-top: 3rem;
         margin-bottom: 3rem;
         font-size: 2.5rem;
+         text-align: center;
+        
        
     }
      @media only screen and (max-width: 950px) {
@@ -100,6 +103,10 @@ const PenalPageStyles = styled.div`
             max-width: 100%;
             width: 100%;
             max-width: 500px;
+            
+        }
+        .about__subheading__up {
+            text-align: center;
         }
 }
 

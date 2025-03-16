@@ -21,6 +21,7 @@ const FormStyles = styled.form`
         border: none;
         border-radius: 8px;
         margin-top: 1rem;
+        box-shadow: 17px 11px 23px #000;
     }
     textarea {
         min-height: 250px;
@@ -36,6 +37,7 @@ const FormStyles = styled.form`
         padding: 1rem 4rem;
         border-radius: 8px;
         cursor: pointer;
+        box-shadow: 17px 11px 23px #000;
     }
 `;
 

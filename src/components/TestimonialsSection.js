@@ -13,6 +13,7 @@ const TestimonialSectionStyles = styled.div`
     position: relative;
     max-width: 700px;
     margin: 0 auto;
+    
   }
   .testimonial__info {
     width: 100%;
@@ -21,6 +22,7 @@ const TestimonialSectionStyles = styled.div`
     background-color: var(--deep-dark);
     border-radius: 12px;
     margin-top: 5rem;
+    box-shadow: 17px 11px 23px #000;
   }
   .testimonial__desc {
     .para {
@@ -54,6 +56,7 @@ const TestimonialSectionStyles = styled.div`
     padding: 0.5rem 2rem;
     border-radius: 8px;
     cursor: pointer;
+    box-shadow: 12px 6px 18px #000;
   }
 }
 .fade-enter-active {

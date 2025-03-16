@@ -12,7 +12,7 @@ border-radius: 8px;
 display: inline-block;
 border: 2px solid var(--gray-1);
 color: ${(props) => (props.outline ? 'var(--gray-1)' : 'black')};
-box-shadow: 12px 6px 18px #000;
+box-shadow: 17px 11px 23px #000;
 transition: "color 0.3s", transform 0.3s;
 }
 

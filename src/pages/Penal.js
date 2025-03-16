@@ -8,6 +8,7 @@ import { MdAccountBalance } from "react-icons/md";
 import { FaBalanceScaleLeft } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 import { FaBalanceScaleRight } from "react-icons/fa";
+import ContactBanner from '../components/ContactBanner';
 
 
 
@@ -36,7 +37,7 @@ const PenalPageStyles = styled.div`
         font-size: 2rem;
         margin-bottom: 2rem;
         span {
-            background-color: var(--deep-dark);
+            background-color: #000;
             padding: 0.5rem;
             border-radius: 8px;
         }
@@ -62,6 +63,7 @@ const PenalPageStyles = styled.div`
         margin-top: 3rem;
         margin-bottom: 3rem;
         font-size: 2.5rem;
+       
     }
      @media only screen and (max-width: 950px) {
         .aboutSection__left {
@@ -75,7 +77,7 @@ const PenalPageStyles = styled.div`
         padding: 10rem 0;
         .top-section {
             flex-direction: column;
-            gap: 5rem;
+            gap: 1rem;
         }
         .about__subheading {
             font-size: 1.8rem;
@@ -86,20 +88,20 @@ const PenalPageStyles = styled.div`
         .about__info__heading {
             font-size: 3rem;
         }
-        .contactSection__wrapper {
+          .contactSection__wrapper {
             flex-direction: column;
-        
+        }
         .contactSection__wrapper::after {
             display: none
         }
-        .left,
+        
         .left__left,
         .right__right {
             max-width: 100%;
+            width: 100%;
+            max-width: 500px;
         }
 }
-    
-        
 
 `;
 
@@ -131,7 +133,7 @@ export default function Penal() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            EXPERTO PENALISTA EN CASOS DE
+                            <span>EXPERTO PENALISTA EN CASOS DE</span>
                         </p>
                 <div className="top-section">
                     
@@ -160,6 +162,7 @@ export default function Penal() {
                 </div>
                 
             </div>
+            <ContactBanner />
         </PenalPageStyles>
     )
 }

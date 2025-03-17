@@ -32,8 +32,9 @@ const ProjectSectionStyle = styled.div`
         left: auto;
         top: 30%;
         transform: translateY(50%);
-        color: var(--gray-1);
+        color: white;
         border-radius: 8px;
+        border: 3px solid #000;
     }
     .swiper-button-next {
         right: 0;
@@ -41,6 +42,7 @@ const ProjectSectionStyle = styled.div`
     .swiper-button-prev:after,
     .swiper-button-next:after {
         font-size: 2rem;
+        
     }
     @media only screen and (max-width: 768px) {
         .projects__allItems {

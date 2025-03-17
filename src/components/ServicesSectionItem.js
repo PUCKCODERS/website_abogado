@@ -5,19 +5,31 @@ import styled from "styled-components";
 
 const ItemStyles = styled.div`
     text-align: center;
+    background-color: var(--deep-dark);
+    padding: 4rem  2rem 4rem 2rem;
+    border-radius: 2rem;
+    border: 3px solid var(--gray-2);
+    box-shadow: 17px 11px 23px #000;
     .servicesItem__icon {
         svg {
-            width: 3rem;
+            width: 4.5rem;
+            margin-bottom: 1.5rem;
         }
     }
 
     .servicesItem__title {
         font-size: 2rem;
         font-family: 'Montserrat SemiBold';
+        
     }
 
     .para {
         margin-top: 1.5rem;
+        background-color: var(--deep-dark);
+        
+        
+        
+
     }
 `;
 

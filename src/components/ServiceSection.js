@@ -5,6 +5,9 @@ import { MdOutlineBalance } from "react-icons/md";
 import { MdOutlineAccountBalance } from "react-icons/md";
 import { GrDocumentText } from "react-icons/gr";
 import styled from "styled-components";
+import { FaBalanceScale } from "react-icons/fa";
+import { MdAccountBalance } from "react-icons/md";
+import { CgFileDocument } from "react-icons/cg";
 
 const ServicesItemStyles = styled.div`
     padding: 10rem 0;
@@ -34,17 +37,17 @@ export default function ServiceSection(){
 
                 <div className="services__allItems">
                     <ServicesSectionItem
-                    icon={<MdOutlineAccountBalance/>} 
+                    icon={<MdAccountBalance/>} 
                     title="ASESORÍA Y CONSULTORÍA LEGAL"
                     desc = "ORIENTACIÓN PERSONALIZADA PARA QUE LOS CLIENTES COMPRENDAN SUS DERECHOS Y TOMEMOS LAS MEJORES DECISIONES LEGALES."
                     />
                     <ServicesSectionItem
-                     icon={<MdOutlineBalance />}
+                     icon={<FaBalanceScale />}
                      title="REPRESENTACIÓN LEGAL"
                      desc = "DEFENSA Y ACOMPAÑAMIENTO EN JUICIOS, NEGOCIACIONES Y PROCEDIMIENTOS LEGALES ANTE TRIBUNALES Y EMPRESAS."
                     />
                     <ServicesSectionItem
-                    icon={<GrDocumentText  />}
+                    icon={<CgFileDocument  />}
                     title="REDACCIÓN Y REVISIÓN DE DOCUMENTOS LEGALES"
                     desc = "ELABORACIÓN, ANÁLISIS Y VALIDACIÓN DE CONTRATOS, TESTAMENTOS Y DEMANDAS PARA GARANTIZAR SU LEGALIDAD."
                     />

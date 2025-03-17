@@ -119,17 +119,18 @@ export default function Tributario() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        ESTRATEGIAS LEGALES PARA UN CUMPLIMIENTO TRIBUTARIO EFICIENTE
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO TRIBUTARIO</h2>
+                        <p className="about__subheading">
+                        <span>OPTIMIZACIÓN FISCAL Y DEFENSA ANTE LA ADMINISTRACIÓN</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EL DERECHO TRIBUTARIO EXIGE UN ASESORAMIENTO PRECISO PARA EVITAR SANCIONES Y 
+                            OPTIMIZAR SU SITUACIÓN FISCAL. COMO ABOGADO TRIBUTARISTA, LE BRINDO ORIENTACIÓN 
+                            EN IMPUESTOS, RECLAMACIONES ADMINISTRATIVAS Y DEFENSA FISCAL. LE AYUDARÉ A CUMPLIR 
+                            CON SUS OBLIGACIONES Y A APROVECHAR LOS BENEFICIOS FISCALES DISPONIBLES
                             </PText>
                         </div>
                     </div>
@@ -140,30 +141,24 @@ export default function Tributario() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO FISCAL</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="PLANIFICACIÓN FISCAL"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="GESTIONES ANTE EL SERVICIO DE RENTAS INTERNAS (SRI)"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="AUDITORÍA TRIBUTARIA"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="REVISIÓN DE OBLIGACIONES FISCALES"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="DECLARACIONES FISCALES"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="RECURSOS Y APELACIONES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="ASESORÍA EN MATERIA DE TRIBUTACIÓN INTERNACIONAL"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="DEFENSA EN LITIGIOS FISCALES"/>
                     </div>
                     
                 </div>

@@ -119,17 +119,19 @@ export default function Herencias() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        SOLUCIONES LEGALES PARA LA DISTRIBUCIÓN JUSTA DE HERENCIAS
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">HERENCIAS Y SUCESIONES</h2>
+                        <p className="about__subheading">
+                        <span>PLANIFICACIÓN Y DEFENSA DE SU PATRIMONIO</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            LA PLANIFICACIÓN SUCESORIA ES FUNDAMENTAL PARA GARANTIZAR QUE SU 
+                            PATRIMONIO SE DISTRIBUYA SEGÚN SUS DESEOS Y SIN COMPLICACIONES LEGALES. 
+                            COMO ABOGADO ESPECIALIZADO EN HERENCIAS Y SUCESIONES, LE ASESORO EN TESTAMENTOS, 
+                            DECLARACIÓN DE HEREDEROS Y DISPUTAS SUCESORIAS, BRINDÁNDOLE SEGURIDAD JURÍDICA Y 
+                            TRANQUILIDAD
                             </PText>
                         </div>
                     </div>
@@ -140,30 +142,28 @@ export default function Herencias() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO SUCESORIO</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="RECLAMACIÓN DE HERENCIA"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="ELABORACIÓN DE TESTAMENTOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="TESTAMENTO ABIERTO"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="TRAMITACIÓN DE SUCESIÓN INTESTADA"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="MEDIACIÓN EN ASUNTOS SUCESORIOS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="DECLARACIONES DE HEREDEROS"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="ACUERDOS DE DISTRIBUCIÓN"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="INVENTARIO Y AVALÚO DE BIENES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="IMPUESTO AL PATRIMONIO HEREDADO"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="POSESIÓN HEREDITARIA"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="IMPUGNACIÓN DE TESTAMENTOS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="INSCRIPCIÓN DE BIENES"/>
                     </div>
                     
                 </div>

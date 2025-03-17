@@ -119,17 +119,18 @@ export default function Civiles() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        REPRESENTACIÓN Y ASESORÍA EN TODO TIPO DE ASUNTOS CIVILES
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO CIVIL</h2>
+                        <p className="about__subheading">
+                        <span>SOLUCIONES LEGALES PARA SU PATRIMONIO Y RELACIONES CIVILES</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EL DERECHO CIVIL REGULA ASUNTOS COMO CONTRATOS, RESPONSABILIDAD CIVIL, 
+                            RECLAMACIONES POR DAÑOS Y OTROS TEMAS FUNDAMENTALES. COMO ABOGADO CIVILISTA, 
+                            LE ASESORO Y REPRESENTO ANTE CUALQUIER CONTROVERSIA, BUSCANDO SIEMPRE SU MEJOR 
+                            INTERÉS Y UNA SOLUCIÓN JUSTA Y FAVORABLE
                             </PText>
                         </div>
                     </div>
@@ -140,30 +141,29 @@ export default function Civiles() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO CIVIL</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORÍA PATRIMONIAL Y SUCESORIA"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="NEGOCIOS FIDUCIARIOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="LITIGIOS Y DEFENSA EN JUICIOS CIVILES"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="DEMANDAS CIVILES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="MATERIA SOCIETARIA"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="CONTRATOS Y ACUERDOS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="DERECHO DE PROPIEDAD"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="COMPRAVENTA DE BIENES INMUEBLES"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="RESPONSABILIDAD CIVIL CONTRACTUAL Y EXTRACONTRACTUAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DERECHO DE LAS PERSONAS Y FAMILIA"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="DAÑOS Y PERJUICIOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="SEGUROS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="CANCELACIÓN DE ANTECEDENTES PENALES"/>
                     </div>
                     
                 </div>

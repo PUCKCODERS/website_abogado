@@ -119,17 +119,19 @@ export default function Penal() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        REPRESENTACIÓN LEGAL EN PROCESOS PENALES Y ASESORAMIENTO ESTRATÉGICO
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO PENAL</h2>
+                        <p className="about__subheading">
+                        <span>DEFENSA EFECTIVA Y PROTECCIÓN DE SUS DERECHOS</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EN EL ÁMBITO PENAL, CADA SITUACIÓN REQUIERE UNA DEFENSA SÓLIDA Y UN 
+                            ASESORAMIENTO PRECISO. COMO ABOGADO PENALISTA, LE BRINDO REPRESENTACIÓN 
+                            EN DELITOS, INVESTIGACIONES, JUICIOS Y RECURSOS, GARANTIZANDO EL RESPETO 
+                            DE SUS DERECHOS Y UNA DEFENSA EFICAZ. MI COMPROMISO ES PROPORCIONARLE LA 
+                            MEJOR ESTRATEGIA LEGAL PARA OBTENER UNA SOLUCIÓN JUSTA Y FAVORABLE
                             </PText>
                         </div>
                     </div>
@@ -140,7 +142,7 @@ export default function Penal() {
             </div>
             <div className="container">
                 <p className="about__subheading__up">
-                     <span>EXPERTO PENALISTA EN CASOS DE</span>
+                     <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO PENAL</span>
                 </p>
                 <div className="top-section">
                     

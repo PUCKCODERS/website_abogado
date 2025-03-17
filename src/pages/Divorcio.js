@@ -119,17 +119,18 @@ export default function Divorcio() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        ASESORÍA LEGAL EN PROCESOS DE DIVORCIO Y ACUERDOS AMISTOSOS O LITIGIOSOS
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DIVORCIOS Y SEPARACIONES</h2>
+                        <p className="about__subheading">
+                        <span>DEFENSA DE SUS DERECHOS PATRIMONIALES Y FAMILIARES</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            UN PROCESO DE DIVORCIO PUEDE SER COMPLEJO Y EMOCIONALMENTE DESAFIANTE. 
+                            COMO ABOGADO, LE ACOMPAÑO EN CADA ETAPA PARA GARANTIZAR UNA SEPARACIÓN EQUITATIVA, 
+                            ROTEGIENDO SUS DERECHOS EN CUESTIONES DE PATRIMONIO, CUSTODIA Y PENSIÓN ALIMENTICIA. 
+                            MI OBJETIVO ES LOGRAR UNA RESOLUCIÓN JUSTA Y FAVORABLE PARA USTED
                             </PText>
                         </div>
                     </div>
@@ -140,30 +141,28 @@ export default function Divorcio() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO FAMILIAR</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="DIVORCIO POR MUTUO ACUERDO"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="DIVORCIO CONTENCIOSO"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DIVORCIO EXPRESS"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="LIQUIDACIÓN DE LA SOCIEDAD CONYUGAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="PENSIÓN ALIMENTICIA"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="RÉGIMEN DE VISITAS"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="PATRIA POTESTAD"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="REDACCIÓN DEL ACUERDO DE DIVORCIO"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="PRESENTACIÓN DE LA DEMANDA DE DIVORCIO"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE LOS TÉRMINOS DEL DIVORCIO"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DIVISIÓN DE BIENES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="CUSTODIA DE HIJOS"/>
                     </div>
                     
                 </div>

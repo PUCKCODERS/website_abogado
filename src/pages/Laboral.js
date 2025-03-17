@@ -119,17 +119,20 @@ export default function Laboral() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        PROTECCIÓN LEGAL PARA TRABAJADORES Y EMPLEADORES
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO LABORAL</h2>
+                        <p className="about__subheading">
+                        <span>DEFENDIENDO SUS DERECHOS EN EL ÁMBITO LABORAL</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EL MUNDO LABORAL REQUIERE UN CONOCIMIENTO PROFUNDO DE LAS 
+                            LEYES Y DERECHOS QUE LO RIGEN. COMO ABOGADO LABORALISTA, 
+                            LE BRINDO ASESORAMIENTO EN DESPIDOS INJUSTIFICADOS, 
+                            RECLAMACIONES SALARIALES, ACCIDENTES LABORALES Y OTROS ASUNTOS RELACIONADOS. 
+                            TANTO SI ES TRABAJADOR COMO EMPLEADOR, LE AYUDARÉ A PROTEGER SUS INTERESES CON 
+                            ESTRATEGIAS LEGALES EFICIENTES
                             </PText>
                         </div>
                     </div>
@@ -140,30 +143,31 @@ export default function Laboral() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO LABORAL</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="REDACCIÓN DE CONTRATOS DE TRABAJO"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="NEGOCIACIÓN DE CONVENIOS COLECTIVOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN JUICIOS LABORALES"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="DESPIDOS Y TERMINACIÓN LABORAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="RECLAMACIONES LABORALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO SOBRE SEGURIDAD SOCIAL"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="OBTENCIÓN DE PERMISOS DE TRABAJO"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="INDEMNIZACIONES LABORALES"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="AFILIACIÓN A LA SEGURIDAD SOCIAL"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="RECLAMACIÓN DE PRESTACIONES SOCIALES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="ACOSO LABORAL"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="DISCRIMINACIÓN LABORAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="ACCIDENTES DE TRABAJO"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="NEGOCIACIÓN DE FINIQUITOS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="REPRESENTACIÓN EN MEDIACIONES Y ARBITRAJES"/>
                     </div>
                     
                 </div>

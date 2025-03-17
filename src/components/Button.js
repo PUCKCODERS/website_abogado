@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ButtonStyle = styled.div`
-margin-top: 2rem;
+margin-top: 4rem;
 .button {
 font-size: 2.2rem;
 background-color: ${(props) => props.outline ? 'transparent': 'var(--gray-1)'};

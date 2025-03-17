@@ -1,47 +1,46 @@
 const testimonials = [
   {
     id: 1,
-    name: 'John Doe',
-    title: 'CEO',
-    org: 'Google',
-    desc: '316 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-    },
-    {
-        id: 2,
-        name: 'Jane Doe',
-        title: 'CTO',
-        org: 'Facebook',
-        desc: '317 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-        },
-        {
-            id: 3,
-            name: 'James Doe',
-            title: 'CFO',
-            org: 'Twitter',
-            desc: '318 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-            },
-            {
-              id: 4,
-              name: 'John Doe',
-              title: 'CEO',
-              org: 'Google',
-              desc: '319 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-              },
-              {
-                  id: 5,
-                  name: 'Jane Doe',
-                  title: 'CTO',
-                  org: 'Facebook',
-                  desc: '320 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-                  },
-                  {
-                      id: 6,
-                      name: 'James Doe',
-                      title: 'CFO',
-                      org: 'Twitter',
-                      desc: '321 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-                      },
-
+    name: 'CARLOS PÉREZ',
+    title: 'ADMINISTRADOR',
+    org: 'EMPRESA DE TRANSPORTE',
+    desc: 'EXCELENTE ABOGADO, SIEMPRE DISPUESTO A AYUDAR Y BRINDAR LAS MEJORES SOLUCIONES LEGALES.',
+  },
+  {
+    id: 2,
+    name: 'MARÍA GÓMEZ',
+    title: 'SECRETARIA',
+    org: 'OFICINA CONTABLE',
+    desc: 'MUY PROFESIONAL Y DEDICADO, EXPLICA TODO CON CLARIDAD Y BRINDA CONFIANZA EN CADA PROCESO.',
+  },
+  {
+    id: 3,
+    name: 'LUIS RAMÍREZ',
+    title: 'VENDEDOR',
+    org: 'TIENDA DE ELECTRODOMÉSTICOS',
+    desc: 'GRAN SERVICIO Y ATENCIÓN, RESOLVIÓ MI PROBLEMA LEGAL RÁPIDAMENTE Y CON MUCHA EFICIENCIA.',
+  },
+  {
+    id: 4,
+    name: 'ANA MARTÍNEZ',
+    title: 'ENFERMERA',
+    org: 'CLÍNICA PRIVADA',
+    desc: 'ME ASESORÓ DE FORMA EXCELENTE Y LOGRÓ UN RESULTADO FAVORABLE PARA MI CASO.',
+  },
+  {
+    id: 5,
+    name: 'JORGE FERNÁNDEZ',
+    title: 'MECÁNICO',
+    org: 'TALLER AUTOMOTRIZ',
+    desc: 'PROFESIONAL Y COMPROMETIDO, SIN DUDA RECOMENDARÍA SUS SERVICIOS A CUALQUIERA.',
+  },
+  {
+    id: 6,
+    name: 'SOFÍA LÓPEZ',
+    title: 'DOCENTE',
+    org: 'ESCUELA PRIMARIA',
+    desc: 'UN ABOGADO DE CONFIANZA, SIEMPRE DISPUESTO A BRINDAR ASESORÍA Y AYUDA CON MUCHA PACIENCIA.',
+  },
 ];
 
 export default testimonials;

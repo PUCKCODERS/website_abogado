@@ -89,19 +89,25 @@ export default function About() {
                         <h2 className="about__heading">DOCTOR EN JURISPRUDENCIA</h2>
                         <div className="about__info">
                             <PText>
-                            Como abogado, mi principal compromiso es defender los derechos 
-                            de mis clientes con integridad y profesionalismo. 
-                            Cada caso representa un reto único que requiere un análisis detallado 
-                            y estrategias personalizadas para garantizar la mejor representación legal posible.
+                            COMO ABOGADO, MI PRINCIPAL COMPROMISO ES DEFENDER LOS DERECHOS 
+                            DE MIS CLIENTES CON INTEGRIDAD Y PROFESIONALISMO.
+                            CADA CASO REPRESENTA UN RETO ÚNICO QUE REQUIERE UN ANÁLISIS 
+                            DETALLADO Y ESTRATEGIAS PERSONALIZADAS PARA GARANTIZAR LA MEJOR 
+                            REPRESENTACIÓN LEGAL POSIBLE
                             <br /> <br />
-                            El ejercicio del derecho exige no solo conocimiento profundo de las 
-                            normativas vigentes, sino también la capacidad de negociar y argumentar con solidez. 
-                            En cada situación, busco soluciones eficientes y favorables, priorizando siempre los 
-                            intereses y la tranquilidad de mis representados.
+                            CUENTO CON UNA AMPLIA EXPERIENCIA EN DIVERSAS ÁREAS DEL DERECHO, 
+                            INCLUYENDO DERECHO CIVIL, PENAL, LABORAL, MERCANTIL, FAMILIAR Y 
+                            ADMINISTRATIVO. ESTA TRAYECTORIA ME PERMITE ABORDAR CADA CASO CON 
+                            UNA VISIÓN INTEGRAL Y PROPONER SOLUCIONES EFECTIVAS ADAPTADAS A LAS NECESIDADES DE MIS CLIENTES
                             <br /> <br />
-                            En un mundo en constante cambio, la actualización jurídica es fundamental. 
-                            Por ello, me mantengo al día con las últimas reformas legales y precedentes judiciales, 
-                            asegurando que mis clientes reciban asesoría basada en la legislación más reciente y efectiva.
+                            EL EJERCICIO DEL DERECHO EXIGE NO SOLO CONOCIMIENTO PROFUNDO 
+                            DE LAS NORMATIVAS VIGENTES, SINO TAMBIÉN LA CAPACIDAD DE NEGOCIAR Y ARGUMENTAR CON SOLIDEZ.
+                            EN CADA SITUACIÓN, BUSCO SOLUCIONES EFICIENTES Y FAVORABLES, 
+                            PRIORIZANDO SIEMPRE LOS INTERESES Y LA TRANQUILIDAD DE MIS REPRESENTADOS
+                            <br /> <br />
+                            EN UN MUNDO EN CONSTANTE CAMBIO, LA ACTUALIZACIÓN JURÍDICA ES FUNDAMENTAL.
+                            POR ELLO, ME MANTENGO AL DÍA CON LAS ÚLTIMAS REFORMAS LEGALES Y PRECEDENTES 
+                            JUDICIALES, ASEGURANDO QUE MIS CLIENTES RECIBAN ASESORÍA BASADA EN LA LEGISLACIÓN MÁS RECIENTE Y EFECTIVA
                             </PText>
                         </div>
                        

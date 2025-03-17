@@ -13,9 +13,9 @@ const ProjectItemStyles = styled.div`
         border-radius: 12px;
         display: inline-block;
         border: 3px solid var(--gray-2);
-        box-shadow: 12px 6px 18px #000;
         img {
             height: 100%;
+            
             
         }
     }
@@ -24,7 +24,7 @@ const ProjectItemStyles = styled.div`
         background-color: var(--deep-dark);
         padding: 1rem;
         border-radius: 12px;
-        box-shadow: 12px 6px 18px #000;
+        border: 3px solid var(--gray-2);
     }
     .projectItem__title {
         font-size: 2.2rem;

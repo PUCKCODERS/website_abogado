@@ -15,7 +15,7 @@ const projects = [
     id: uuidv4(),
     name: 'PENAL',
     desc:
-      'A HOLAS web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'REPRESENTACIÓN LEGAL EN PROCESOS PENALES Y ASESORAMIENTO',
     img: PenalImg,
     navLink: '/penal',
   },
@@ -23,7 +23,7 @@ const projects = [
     id: uuidv4(),
     name: 'FAMILIA',
     desc:
-      'A web application that helps you track your university courses, assignments, and grades. It also provides a calendar view to help you manage your time better.',
+      'SOLUCIONES LEGALES EFECTIVAS PARA SU TRANQUILIDAD',
     img: FamiliaImg,
     navLink: '/familia',
   },
@@ -31,7 +31,7 @@ const projects = [
     id: uuidv4(),
     name: 'DIVORCIO',
     desc:
-      'A web application that helps you find the nearest green spaces in Chittagong city. It also provides information about the parks and playgrounds.',
+      'PROCESOS DE DIVORCIO Y ACUERDOS AMISTOSOS O LITIGIOSOS',
     img: DivorcioImg,
     navLink: '/divorcio',
   },
@@ -39,7 +39,7 @@ const projects = [
     id: uuidv4(),
     name: 'LABORAL',
     desc:
-      'A web application that helps you track the prices of cryptocurrencies. It also provides a detailed view of the price changes over time.',
+      'PROTECCIÓN LEGAL PARA TRABAJADORES Y EMPLEADORES',
     img: LaboralImg,
     navLink: '/laboral'
   },
@@ -47,7 +47,7 @@ const projects = [
     id: uuidv4(),
     name: 'CIVILES',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'REPRESENTACIÓN Y ASESORÍA EN TODO TIPO DE ASUNTOS CIVILES',
     img: CivilImg,
     navLink: '/civiles'
   },
@@ -55,7 +55,7 @@ const projects = [
     id: uuidv4(),
     name: 'MERCANTIL',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'SOLUCIONES EFICIENTES PARA EMPRENDEDORES Y CORPORACIONES',
     img: MercantilImg,
     navLink: '/mercantil'
   },
@@ -63,7 +63,7 @@ const projects = [
     id: uuidv4(),
     name: 'TRIBUTARIO',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'ESTRATEGIAS LEGALES PARA UN CUMPLIMIENTO TRIBUTARIO EFICIENTE',
     img: TributarioImg,
     navLink: '/tributario'
   },
@@ -71,7 +71,7 @@ const projects = [
     id: uuidv4(),
     name: 'AMBIENTAL',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'SOLUCIONES LEGALES PARA PROTEGER EL MEDIO AMBIENTE Y SUS INTERESES',
     img: AmbientalImg,
     navLink: '/ambiental'
   },
@@ -79,7 +79,7 @@ const projects = [
     id: uuidv4(),
     name: 'HERENCIAS SUCESIONES',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'SOLUCIONES LEGALES PARA LA DISTRIBUCIÓN JUSTA DE HERENCIAS',
     img: TestamentoImg,
     navLink: '/herencias'
   },
@@ -87,7 +87,7 @@ const projects = [
     id: uuidv4(),
     name: 'INMOBILIARIOS',
     desc:
-      'A web application that helps you find the nearest caves in your area. It also provides information about the caves and their locations.',
+      'ASESORAMIENTO LEGAL PARA COMPRAVENTA Y LITIGIOS INMOBILIARIOS',
     img: InmobiliariosImg,
     navLink: '/inmobiliarios'
   },

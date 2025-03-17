@@ -119,17 +119,20 @@ export default function Familia() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        SOLUCIONES LEGALES EFECTIVAS PARA SU TRANQUILIDAD
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO DE FAMILIA</h2>
+                        <p className="about__subheading">
+                        <span>TPROTEGIENDO SUS VÍNCULOS Y BIENESTAR</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EL MUNDO LABORAL REQUIERE UN CONOCIMIENTO PROFUNDO DE LAS 
+                            LEYES Y DERECHOS QUE LO RIGEN. COMO ABOGADO LABORALISTA, 
+                            LE BRINDO ASESORAMIENTO EN DESPIDOS INJUSTIFICADOS, 
+                            RECLAMACIONES SALARIALES, ACCIDENTES LABORALES Y OTROS ASUNTOS RELACIONADOS. 
+                            TANTO SI ES TRABAJADOR COMO EMPLEADOR, LE AYUDARÉ A PROTEGER SUS INTERESES 
+                            CON ESTRATEGIAS LEGALES EFICIENTES
                             </PText>
                         </div>
                     </div>
@@ -140,30 +143,36 @@ export default function Familia() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO FAMILIAR</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="REDACCIÓN Y FIRMA DE CAPITULACIONES MATRIMONIALES"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="DIVORCIOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="NULIDAD MATRIMONIAL"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="LIQUIDACIÓN DE LA SOCIEDAD CONYUGAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="PATRIA POTESTAD"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="RÉGIMEN DE VISITAS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="TENENCIA DE HIJOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="RECONOCIMIENTO DE HIJOS"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="IMPUGNACIÓN DE LA FILIACIÓN"/>
+                            
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                    
+                            <ContactInfoItem icon={<FaBalanceScale />} text="DECLARACIÓN DE INTERDICCIÓN"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="NOMBRAMIENTO DE TUTOR O CURADOR"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="VIOLENCIA INTRAFAMILIAR"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="PENSIONES DE ALIMENTOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="HERENCIAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="DECLARACIÓN DE AUSENCIA"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="EMANCIPACIÓN"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="CAMBIO DE NOMBRE"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="ADOPCIÓN"/>
                     </div>
                     
                 </div>

@@ -119,17 +119,19 @@ export default function Ambiental() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        SOLUCIONES LEGALES PARA PROTEGER EL MEDIO AMBIENTE Y SUS INTERESES
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO AMBIENTAL</h2>
+                        <p className="about__subheading">
+                        <span>DEFENSA Y CUMPLIMIENTO DE LA LEGISLACIÓN AMBIENTAL</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EL CUMPLIMIENTO DE LAS NORMAS AMBIENTALES ES ESENCIAL PARA EVITAR 
+                            SANCIONES Y PROTEGER NUESTRO ENTORNO. COMO ABOGADO AMBIENTALISTA, 
+                            LE ASESORO EN PERMISOS AMBIENTALES, LITIGIOS POR CONTAMINACIÓN Y 
+                            POLÍTICAS DE SOSTENIBILIDAD. MI OBJETIVO ES GARANTIZAR QUE SU ACTIVIDAD 
+                            CUMPLA CON LA LEGISLACIÓN VIGENTE Y CONTRIBUYA AL DESARROLLO SOSTENIBLE
                             </PText>
                         </div>
                     </div>
@@ -140,30 +142,27 @@ export default function Ambiental() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO AMBIENTAL</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="EVALUACIÓN Y GESTIÓN DE IMPACTO AMBIENTAL"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="LICENCIAS Y PERMISOS AMBIENTALES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="CUMPLIMIENTO DE NORMAS AMBIENTALES"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="LITIGIOS AMBIENTALES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="INFORMES DE MONITOREOS"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="NEGOCIACIÓN DE ACUERDOS AMBIENTALES CON TERCEROS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="GESTIÓN DE REGISTROS DE GENERADOR DE DESECHOS PELIGROSOS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="PERMISOS DE MANEJO DE RESIDUOS"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="BUENAS PRÁCTICAS AMBIENTALES"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="INFORMES DE FACTIBILIDAD AMBIENTAL
+"/>
                     </div>
                     
                 </div>

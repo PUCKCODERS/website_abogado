@@ -119,17 +119,19 @@ export default function Inmobiliarios() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        ASESORAMIENTO LEGAL PARA COMPRAVENTA Y LITIGIOS INMOBILIARIOS
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO INMOBILIARIO</h2>
+                        <p className="about__subheading">
+                            <span>PROTEGIENDO SUS INVERSIONES Y PROPIEDADES</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EN EL SECTOR INMOBILIARIO, CADA TRANSACCIÓN DEBE ESTAR RESPALDADA 
+                            POR UNA BASE LEGAL SÓLIDA. COMO ABOGADO INMOBILIARIO, LE ASESORO 
+                            EN CONTRATOS DE COMPRAVENTA, ARRENDAMIENTOS, RECLAMACIONES POR VICIOS 
+                            CONSTRUCTIVOS Y OTROS ASUNTOS RELACIONADOS. PROTEJO SUS DERECHOS Y LE 
+                            AYUDO A TOMAR DECISIONES SEGURAS Y RENTABLES
                             </PText>
                         </div>
                     </div>
@@ -140,30 +142,27 @@ export default function Inmobiliarios() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO INMOBILIARIO</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="EVALUACIÓN Y VERIFICACIÓN DE INMUEBLES"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="ASESORÍA EN MATERIA HIPOTECARIA"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="CONTRATOS DE COMPRAVENTA"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="ARRENDAMIENTO"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="COMODATO"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="REGULARIZACIÓN DE ÁREAS"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORÍA LEGAL EN INVERSIONES INMOBILIARIAS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="INSCRIPCIÓN DE INMUEBLES EN EL REGISTRO DE LA PROPIEDAD"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="OBTENCIÓN DE PERMISOS DE CONSTRUCCIÓN"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="PROPIEDAD HORIZONTAL"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="ACTUALIZACIÓN CATASTRAL"/>
                     </div>
                     
                 </div>

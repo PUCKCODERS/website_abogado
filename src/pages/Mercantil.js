@@ -119,17 +119,18 @@ export default function Mercantil() {
                 <div className="top-section">
                     <div className="left">
                         <p className="about__subheading">
-                        PROTEGIENDO SUS DERECHOS CON <span>EXPERIENCIA Y COMPROMISO</span>
+                        SOLUCIONES EFICIENTES PARA EMPRENDEDORES Y CORPORACIONES
                         </p>
-                        <h2 className="about__heading">DEFENSA PENAL</h2>
+                        <h2 className="about__heading">DERECHO MERCANTIL</h2>
+                        <p className="about__subheading">
+                        <span>ASESORAMIENTO LEGAL PARA EMPRESAS Y NEGOCIOS</span>
+                        </p>
                         <div className="about__info">
                             <PText>
-                            EN EL ÁMBITO PENAL, CADA CASO REQUIERE UNA DEFENSA SÓLIDA Y ESTRATÉGICA. 
-                            COMO ABOGADO ESPECIALIZADO EN DERECHO PENAL, LE BRINDO ASESORAMIENTO 
-                            LEGAL INTEGRAL Y REPRESENTACIÓN EN TODAS LAS ETAPAS DEL PROCESO, GARANTIZANDO 
-                            LA PROTECCIÓN DE SUS DERECHOS. YA SEA QUE ENFRENTE ACUSACIONES INJUSTAS, 
-                            NECESITE ASISTENCIA EN PROCESOS JUDICIALES O REQUIERA ORIENTACIÓN PARA RESOLVER 
-                            SU SITUACIÓN LEGAL, ESTARÉ A SU LADO PARA OFRECERLE LA MEJOR DEFENSA POSIBLE
+                            EN EL ÁMBITO MERCANTIL, UNA BUENA ESTRUCTURA LEGAL ES CLAVE PARA EL ÉXITO EMPRESARIAL. 
+                            COMO ABOGADO MERCANTILISTA, LE ASESORO EN CONTRATOS, SOCIEDADES, DISPUTAS COMERCIALES Y 
+                            PROTECCIÓN DE SUS INTERESES EMPRESARIALES. LE AYUDO A PREVENIR RIESGOS LEGALES Y A 
+                            GARANTIZAR EL CUMPLIMIENTO DE LAS NORMATIVAS
                             </PText>
                         </div>
                     </div>
@@ -140,30 +141,30 @@ export default function Mercantil() {
             </div>
             <div className="container">
                         <p className="about__subheading__up">
-                            <span>EXPERTO PENALISTA EN CASOS DE</span>
+                            <span>CONOCIMIENTO PROFUNDO EN LAS DIFERENTES SITUACIONES DEL DERECHO COMERCIAL</span>
                         </p>
                 <div className="top-section">
                     
                     <div className="left__left">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DEFENSA EN CASO DE JUICIO PENAL"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REPRESENTACIÓN EN CASO DE APELACIÓN"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="SOLICITUD DE MEDIDAS CAUTELARES"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="RECURSOS PENALES"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="INDULTOS Y CONMUTACIONES DE PENAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="CONSTITUCIÓN DE EMPRESAS"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="OBTENCIÓN DE PERMISOS Y LICENCIAS PARA OPERAR"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REDACCIÓN DE PACTOS DE ACCIONISTAS"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="LIQUIDACIÓN Y DISOLUCIÓN DE EMPRESAS"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight />} text="REACTIVACIÓN DE COMPAÑÍAS"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="AUMENTOS Y REDUCCIÓN DE CAPITAL"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="ASESORÍA LEGAL EN TEMAS SOCIETARIOS"/>
                             
                     </div>
                     <div className="right__right">
                         
-                            <ContactInfoItem icon={<FaBalanceScale />} text="REPARACIÓN DEL DAÑO"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="DELITOS CONTRA EL PATRIMONIO"/>
-                            <ContactInfoItem icon={<CgFileDocument />} text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"/>
-                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="DELITOS INFORMÁTICOS"/>
-                            <ContactInfoItem icon={<FaBalanceScale />} text="DELITOS ECONÓMICOS"/>
-                            <ContactInfoItem icon={<MdAccountBalance />} text="DELITOS INTERNACIONALES"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="OBTENCIÓN DE PRÉSTAMOS Y LÍNEAS DE CRÉDITO"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="REESTRUCTURACIÓN DE DEUDA"/>
+                            <ContactInfoItem icon={<FaBalanceScaleLeft />} text="REGISTRO DE PATENTES, MARCAS Y DERECHOS DE AUTOR"/>
+                            <ContactInfoItem icon={<CgFileDocument />} text="NEGOCIACIÓN Y ELABORACIÓN DE ACUERDOS DE LICENCIA"/>
+                            <ContactInfoItem icon={<FaBalanceScaleRight  />} text="LITIGIOS EN MATERIA DE PROPIEDAD INTELECTUAL"/>
+                            <ContactInfoItem icon={<FaBalanceScale />} text="REDACCIÓN Y REVISIÓN DE CONTRATOS COMERCIALES"/>
+                            <ContactInfoItem icon={<MdAccountBalance />} text="PLANIFICACIÓN FISCAL PARA EMPRESAS"/>
                     </div>
                     
                 </div>

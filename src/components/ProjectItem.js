@@ -57,7 +57,7 @@ export default function ProjectItem({
                     <h3 className="projectItem__title">{title}</h3>
                 </Link>
                 <p className="projectItem__desc">{desc}</p>
-                {navLink && <a href={navLink}></a>}
+                {navLink && <a href={navLink}>{null}</a>}
             </div>
         </ProjectItemStyles>
     )

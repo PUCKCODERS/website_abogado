@@ -1,9 +1,7 @@
 
 import React from "react";
-import PText from "../components/PText"; 
-import Button from "../components/Button"; 
+import PText from "../components/PText";
 import AboutImg from "../assets/images/about-page-img.png"
-import AboutInfoItem from "../components/AboutInfoItem";
 import styled from "styled-components";
 import ContactBanner from "../components/ContactBanner";
 import Advantages from "../components/Advantages";

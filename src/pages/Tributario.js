@@ -7,7 +7,6 @@ import { FaBalanceScale } from "react-icons/fa";
 import { MdAccountBalance } from "react-icons/md";
 import { FaBalanceScaleLeft } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
-import { FaBalanceScaleRight } from "react-icons/fa";
 import ContactBanner from '../components/ContactBanner';
 
 

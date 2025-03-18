@@ -1,8 +1,5 @@
 import React from "react";
-import PText from "./PText"; 
-import Button from "./Button"; 
 import styled from "styled-components";
-import { FaBalanceScale } from "react-icons/fa";
 import ContactInfoItem from "./ContactInfoItem";
 import { MdSchool } from 'react-icons/md';
 import { AiOutlineCheckCircle } from 'react-icons/ai';

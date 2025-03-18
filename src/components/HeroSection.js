@@ -3,7 +3,6 @@ import HeroImg from "../assets/images/portada1.png";
 import PText from "./PText";
 import Button from "./Button";
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import { MdOutlineAccountBalance } from "react-icons/md";
 import { FaBalanceScale } from "react-icons/fa";
 import styled from "styled-components";

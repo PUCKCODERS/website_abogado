@@ -1,9 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import ServicesSectionItem from "./ServicesSectionItem"
-import { MdOutlineBalance } from "react-icons/md";
-import { MdOutlineAccountBalance } from "react-icons/md";
-import { GrDocumentText } from "react-icons/gr";
 import styled from "styled-components";
 import { FaBalanceScale } from "react-icons/fa";
 import { MdAccountBalance } from "react-icons/md";

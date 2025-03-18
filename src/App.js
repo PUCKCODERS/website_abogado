@@ -16,30 +16,33 @@ import Tributario from './pages/Tributario';
 import Ambiental from './pages/Ambiental';
 import Herencias from './pages/Herencias';
 import Inmobiliarios from './pages/Inmobiliarios';
+import SmoothScrollbar from './components/SmoothScrollbar';
 
 
 export default function App() {
   return (
     <Router>
       <NavMenu />
-      <Routes>
-        <Route path='/inmobiliarios' element={<Inmobiliarios />} />
-        <Route path='/herencias' element={<Herencias />} />
-        <Route path='/ambiental' element={<Ambiental />} />
-        <Route path='/tributario' element={<Tributario />} />
-        <Route path='/mercantil' element={<Mercantil />} />
-        <Route path='/civiles' element={<Civiles />} />
-        <Route path='/laboral' element={<Laboral />} />
-        <Route path='/divorcio' element={<Divorcio />} />
-        <Route path='/familia' element={<Familia />} />
-        <Route path='/penal' element={<Penal />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/' element={<Home />} />
-        
-      </Routes>
-      <Footer/>
+      <SmoothScrollbar>
+          <Routes>
+            <Route path='/inmobiliarios' element={<Inmobiliarios />} />
+            <Route path='/herencias' element={<Herencias />} />
+            <Route path='/ambiental' element={<Ambiental />} />
+            <Route path='/tributario' element={<Tributario />} />
+            <Route path='/mercantil' element={<Mercantil />} />
+            <Route path='/civiles' element={<Civiles />} />
+            <Route path='/laboral' element={<Laboral />} />
+            <Route path='/divorcio' element={<Divorcio />} />
+            <Route path='/familia' element={<Familia />} />
+            <Route path='/penal' element={<Penal />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/' element={<Home />} />
+          </Routes>
+          <Footer/>
+      </SmoothScrollbar>
+      
     </Router>
   );
 }

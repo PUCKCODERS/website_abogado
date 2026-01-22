@@ -47,6 +47,14 @@ const ContactSectionStyle = styled.div`
     .right {
       padding: 4rem 2rem 2rem 2rem;
     }
+    .email-item .para p {
+      font-size: 1.4rem;
+      word-break: break-all;
+    }
+    @media only screen and (max-width: 480px) {
+    .email-item .para p {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -64,6 +72,7 @@ export default function ContactSection() {
             <ContactInfoItem
               icon={<MdEmail />}
               text="jlc.rodriguez316@gmail.com"
+              className="email-item"
             />
             <ContactInfoItem text="QUITO, ECUADOR" />
           </div>

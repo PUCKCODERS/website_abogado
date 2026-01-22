@@ -41,7 +41,7 @@ const AdvantagesStyles = styled.div`
     padding: 5rem 0;
     .top-section {
       flex-direction: column;
-      gap: 1rem; /* Gap between the two columns when stacked */
+      gap: -10; /* Remove gap to rely on item margin for spacing */
       align-items: center; /* Center the columns */
     }
     .left__left,

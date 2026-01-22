@@ -136,7 +136,7 @@ const ContactBannerStyles = styled.div`
     .left__left,
     .right__right {
       max-width: 100%;
-      padding: 4rem 2rem 2rem 2rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
       .para {
         font-size: 1.5rem;
       }
@@ -159,7 +159,7 @@ const ContactBannerStyles = styled.div`
     .left__left,
     .right__right {
       max-width: 100%;
-      padding: 4rem 2rem 2rem 2rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
       .para {
         font-size: 1rem;
       }
@@ -181,7 +181,7 @@ const ContactBannerStyles = styled.div`
     .left__left,
     .right__right {
       max-width: 100%;
-      padding: 4rem 2rem 2rem 2rem;
+      padding: 1rem 1rem 1rem 1rem;
       .para {
         font-size: 0.7rem;
       }

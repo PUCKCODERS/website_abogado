@@ -218,10 +218,15 @@ export default function Penal() {
                 text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScaleLeft />}
-              text="DELITOS CONTRA EL PATRIMONIO"
-            />
+            <Link
+              to="/delitos-contra-el-patrimonio"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<FaBalanceScaleLeft />}
+                text="DELITOS CONTRA EL PATRIMONIO"
+              />
+            </Link>
             <ContactInfoItem
               icon={<CgFileDocument />}
               text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"

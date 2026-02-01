@@ -159,10 +159,15 @@ export default function Penal() {
                 text="DEFENSA EN CASO DE JUICIO PENAL"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScaleLeft />}
-              text="REPRESENTACIÓN EN CASO DE APELACIÓN"
-            />
+            <Link
+              to="/representacion-en-caso-de-apelacion"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<FaBalanceScaleLeft />}
+                text="REPRESENTACIÓN EN CASO DE APELACIÓN"
+              />
+            </Link>
             <ContactInfoItem
               icon={<CgFileDocument />}
               text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"

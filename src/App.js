@@ -19,6 +19,7 @@ import Inmobiliarios from "./pages/Inmobiliarios";
 import SmoothScrollbar from "./components/SmoothScrollbar";
 import AsesoramientoLegalInvestigacionPenal from "./pages/SubPaginas/Penal/ASESORAMIENTO_LEGAL_EN_CASO_DE_INVESTIGACIÓN_PENAL";
 import DefensaEnCasoDeJuicioPenal from "./pages/SubPaginas/Penal/DEFENSA_EN_CASO_DE_JUICIO_PENAL";
+import RepresentacionEnCasoDeApelacion from "./pages/SubPaginas/Penal/REPRESENTACION_EN_CASO_DE_APELACION";
 
 export default function App() {
   return (
@@ -43,6 +44,10 @@ export default function App() {
           <Route
             path="/defensa-en-caso-de-juicio-penal"
             element={<DefensaEnCasoDeJuicioPenal />}
+          />
+          <Route
+            path="/representacion-en-caso-de-apelacion"
+            element={<RepresentacionEnCasoDeApelacion />}
           />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />

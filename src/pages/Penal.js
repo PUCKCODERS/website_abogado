@@ -168,10 +168,15 @@ export default function Penal() {
                 text="REPRESENTACIÓN EN CASO DE APELACIÓN"
               />
             </Link>
-            <ContactInfoItem
-              icon={<CgFileDocument />}
-              text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"
-            />
+            <Link
+              to="/negociacion-de-acuerdos-con-la-fiscalia"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<CgFileDocument />}
+                text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScaleRight />}
               text="SOLICITUD DE MEDIDAS CAUTELARES"

@@ -20,6 +20,7 @@ import SmoothScrollbar from "./components/SmoothScrollbar";
 import AsesoramientoLegalInvestigacionPenal from "./pages/SubPaginas/Penal/ASESORAMIENTO_LEGAL_EN_CASO_DE_INVESTIGACIÓN_PENAL";
 import DefensaEnCasoDeJuicioPenal from "./pages/SubPaginas/Penal/DEFENSA_EN_CASO_DE_JUICIO_PENAL";
 import RepresentacionEnCasoDeApelacion from "./pages/SubPaginas/Penal/REPRESENTACION_EN_CASO_DE_APELACION";
+import NegociacionDeAcuerdosConLaFiscalia from "./pages/SubPaginas/Penal/NEGOCIACION_DE_ACUERDOS_CON_LA_FISCALIA";
 
 export default function App() {
   return (
@@ -48,6 +49,10 @@ export default function App() {
           <Route
             path="/representacion-en-caso-de-apelacion"
             element={<RepresentacionEnCasoDeApelacion />}
+          />
+          <Route
+            path="/negociacion-de-acuerdos-con-la-fiscalia"
+            element={<NegociacionDeAcuerdosConLaFiscalia />}
           />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />

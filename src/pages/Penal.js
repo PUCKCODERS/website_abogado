@@ -192,10 +192,15 @@ export default function Penal() {
                 text="RECURSOS PENALES"
               />
             </Link>
-            <ContactInfoItem
-              icon={<MdAccountBalance />}
-              text="INDULTOS Y CONMUTACIONES DE PENAS"
-            />
+            <Link
+              to="/indultos-y-conmutaciones-de-penas"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<MdAccountBalance />}
+                text="INDULTOS Y CONMUTACIONES DE PENAS"
+              />
+            </Link>
           </div>
           <div className="right__right">
             <ContactInfoItem

@@ -150,10 +150,15 @@ export default function Penal() {
                 text="ASESORAMIENTO LEGAL EN CASO DE INVESTIGACIÓN PENAL"
               />
             </Link>
-            <ContactInfoItem
-              icon={<MdAccountBalance />}
-              text="DEFENSA EN CASO DE JUICIO PENAL"
-            />
+            <Link
+              to="/defensa-en-caso-de-juicio-penal"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<MdAccountBalance />}
+                text="DEFENSA EN CASO DE JUICIO PENAL"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScaleLeft />}
               text="REPRESENTACIÓN EN CASO DE APELACIÓN"

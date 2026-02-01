@@ -156,35 +156,32 @@ const AboutPageStyles = styled.div`
   }
 `;
 
-export default function AsesoramientoLegalInvestigacionPenal() {
+export default function DEFENSAENCASODEJUICIOPENAL() {
   return (
     <AboutPageStyles>
       <div className="container">
         <div className="top-section">
           <div className="left">
             <p className="about__subheading">
-              PROTECCIÓN INMEDIATA DE <span>SUS DERECHOS</span>
+              REPRESENTACIÓN TÉCNICA Y <span>ESTRATÉGICA</span>
             </p>
-            <h2 className="about__heading">
-              ASESORAMIENTO EN INVESTIGACIÓN PENAL
-            </h2>
+            <h2 className="about__heading">DEFENSA EN JUICIO PENAL</h2>
             <div className="about__info">
               <PText>
-                ENFRENTAR UNA INVESTIGACIÓN PENAL PUEDE SER UNA EXPERIENCIA
-                ABRUMADORA. DESDE EL MOMENTO EN QUE SE TIENE CONOCIMIENTO DE UNA
-                INDAGACIÓN EN SU CONTRA, ES CRUCIAL CONTAR CON ASESORAMIENTO
-                LEGAL EXPERTO.
+                LA ETAPA DE JUICIO ES EL MOMENTO CULMINANTE DEL PROCESO PENAL.
+                AQUÍ SE DEFINE SU LIBERTAD Y SU FUTURO. NO ES MOMENTO PARA
+                IMPROVISACIONES, SINO PARA UNA DEFENSA TÉCNICA RIGUROSA.
                 <br /> <br />
-                MI OBJETIVO ES PROTEGER SUS DERECHOS CONSTITUCIONALES, EVITAR
-                ABUSOS DE AUTORIDAD Y CONSTRUIR UNA DEFENSA SÓLIDA DESDE LA FASE
-                PREPROCESAL.
+                COMO SU ABOGADO DEFENSOR, MI ROL ES CUESTIONAR LA TESIS DE LA
+                FISCALÍA, PRESENTAR PRUEBAS CONTUNDENTES A SU FAVOR Y PERSUADIR
+                AL TRIBUNAL MEDIANTE TÉCNICAS AVANZADAS DE LITIGACIÓN ORAL.
                 <br /> <br />
-                UNA INTERVENCIÓN TEMPRANA PUEDE MARCAR LA DIFERENCIA ENTRE EL
-                ARCHIVO DE LA CAUSA O UN JUICIO LARGO Y COMPLEJO. COMO SU
-                ABOGADO, ME ASEGURARÉ DE QUE CADA PASO QUE DÉ ESTÉ RESPALDADO
-                POR UNA ESTRATEGIA LEGAL INTELIGENTE.
+                MI MISIÓN ES DESVIRTUAR LA ACUSACIÓN Y LOGRAR QUE SU VERSIÓN DE
+                LOS HECHOS PREVALEZCA ANTE LOS JUECES, ASEGURANDO EL RESPETO
+                IRRESTRICTO A SU PRESUNCIÓN DE INOCENCIA.
                 <br /> <br />
-                NO ESPERE A QUE SE FORMULEN CARGOS. LA DEFENSA COMIENZA AHORA.
+                NO DEJE SU LIBERTAD AL AZAR; NECESITA UNA DEFENSA PREPARADA PARA
+                EL DEBATE.
               </PText>
             </div>
           </div>
@@ -197,25 +194,25 @@ export default function AsesoramientoLegalInvestigacionPenal() {
       <ServicesItemStyles>
         <div className="container">
           <SectionTitle
-            heading="ASISTENCIA LEGAL"
-            subheading="ACCIONES EN FASE DE INVESTIGACIÓN"
+            heading="ESTRATEGIA DE LITIGIO"
+            subheading="ACTUACIÓN EN LA AUDIENCIA DE JUICIO"
           />
 
           <div className="services__allItems">
             <ServicesSectionItem
               icon={<MdAccountBalance />}
-              title="ANÁLISIS DE RIESGOS LEGALES"
-              desc="EVALUACIÓN DE LA SITUACIÓN JURÍDICA PARA ANTICIPAR POSIBLES IMPUTACIONES Y PREPARAR RESPUESTAS EFECTIVAS ANTE LA FISCALÍA."
+              title="TEORÍA DEL CASO SÓLIDA"
+              desc="CONSTRUCCIÓN DE UNA NARRATIVA LÓGICA Y PERSUASIVA QUE EXPLIQUE LOS HECHOS DESDE SU PERSPECTIVA, APOYADA EN LA PRUEBA ACTUADA."
             />
             <ServicesSectionItem
               icon={<FaBalanceScale />}
-              title="ASISTENCIA EN DILIGENCIAS"
-              desc="ACOMPAÑAMIENTO PRESENCIAL EN DECLARACIONES, RECONOCIMIENTOS Y PERITAJES PARA GARANTIZAR EL DEBIDO PROCESO Y EVITAR AUTOINCRIMINACIÓN."
+              title="INTERROGATORIO EXPERTO"
+              desc="TÉCNICAS PARA EXTRAER LA VERDAD DE SUS TESTIGOS Y EVIDENCIAR CONTRADICCIONES O MENTIRAS EN LOS TESTIGOS DE CARGO MEDIANTE EL CONTRAINTERROGATORIO."
             />
             <ServicesSectionItem
               icon={<CgFileDocument />}
-              title="CONTROL DE LA CARPETA FISCAL"
-              desc="REVISIÓN CONSTANTE DEL EXPEDIENTE PARA CONOCER LOS ELEMENTOS DE CONVICCIÓN Y REFUTARLOS OPORTUNAMENTE CON PRUEBAS DE DESCARGO."
+              title="DEBATE PROBATORIO"
+              desc="IMPUGNACIÓN DE PRUEBAS ILÍCITAS O IMPERTINENTES Y PRESENTACIÓN EFICAZ DE PERITAJES Y DOCUMENTOS QUE DEMUESTREN SU INOCENCIA."
             />
           </div>
           <div className="services__allItems"></div>
@@ -229,21 +226,20 @@ export default function AsesoramientoLegalInvestigacionPenal() {
           </div>
           <div className="left">
             <p className="about__subheading">
-              CONOZCA Y EJERZA <span>SUS GARANTÍAS</span>
+              GARANTÍAS EN EL <span>DEBATE ORAL</span>
             </p>
-            <h2 className="about__heading">DERECHOS FUNDAMENTALES</h2>
+            <h2 className="about__heading">PRINCIPIOS DEL JUICIO</h2>
             <p className="about__subheading">
-              <span>RESPETO AL DEBIDO PROCESO</span>
+              <span>CONTRADICCIÓN E INMEDIACIÓN</span>
             </p>
             <div className="about__info">
               <PText>
-                DURANTE LA FASE DE INVESTIGACIÓN, USTED TIENE DERECHOS
-                INALIENABLES, COMO LA PRESUNCIÓN DE INOCENCIA, EL DERECHO A
-                GUARDAR SILENCIO Y A NO AUTOINCRIMINARSE. MI LABOR ES ASEGURAR
-                QUE ESTOS DERECHOS SEAN RESPETADOS RIGUROSAMENTE POR LA POLICÍA
-                Y LA FISCALÍA. CUALQUIER PRUEBA OBTENIDA VULNERANDO ESTOS
-                PRINCIPIOS PUEDE SER ANULADA, Y ES MI DEBER IDENTIFICAR ESAS
-                IRREGULARIDADES PARA SU BENEFICIO.
+                EN EL JUICIO, NADA SE DA POR SENTADO. EJERZO SU DERECHO A
+                CONTRADECIR CADA PRUEBA PRESENTADA EN SU CONTRA. VIGILO QUE LOS
+                JUECES PERCIBAN DIRECTAMENTE LA PRUEBA (INMEDIACIÓN) Y QUE SE
+                RESPETE LA IGUALDAD DE ARMAS. MI PRESENCIA GARANTIZA QUE NO SE
+                VULNEREN SUS DERECHOS CONSTITUCIONALES FRENTE AL PODER PUNITIVO
+                DEL ESTADO.
               </PText>
             </div>
           </div>
@@ -257,21 +253,20 @@ export default function AsesoramientoLegalInvestigacionPenal() {
           </div>
           <div className="left">
             <p className="about__subheading">
-              LA IMPORTANCIA DE LA <span>DEFENSA ACTIVA</span>
+              LA FUERZA DE LOS <span>ALEGATOS</span>
             </p>
-            <h2 className="about__heading">ESTRATEGIA PROBATORIA</h2>
+            <h2 className="about__heading">PERSUASIÓN Y ARGUMENTACIÓN</h2>
             <p className="about__subheading">
-              <span>PREVENCIÓN Y ACTUACIÓN</span>
+              <span>CIERRE CONTUNDENTE</span>
             </p>
             <div className="about__info">
               <PText>
-                NO BASTA CON ESPERAR A VER QUÉ HACE LA FISCALÍA. UNA DEFENSA
-                EFICAZ EN LA ETAPA DE INVESTIGACIÓN IMPLICA APORTAR ELEMENTOS DE
-                DESCARGO, PROPONER DILIGENCIAS Y PRESENTAR TESTIGOS QUE
-                RESPALDEN SU VERSIÓN. TRABAJAMOS PARA DESVIRTUAR LAS ACUSACIONES
-                ANTES DE QUE SE FORMULEN CARGOS, BUSCANDO EL ARCHIVO DE LA
-                INVESTIGACIÓN O LA DESESTIMACIÓN DE LA DENUNCIA CUANDO SEA
-                POSIBLE.
+                LOS ALEGATOS DE APERTURA Y CLAUSURA SON MOMENTOS CUMBRE. PREPARO
+                ARGUMENTOS JURÍDICOS Y FÁCTICOS PRECISOS PARA DEMOSTRAR LA
+                INSUFICIENCIA DE LA ACUSACIÓN FISCAL. EL OBJETIVO ES SEMBRAR LA
+                DUDA RAZONABLE O DEMOSTRAR LA CERTEZA DE SU INOCENCIA,
+                ASEGURANDO QUE EL TRIBUNAL TENGA RAZONES DE PESO PARA DICTAR UNA
+                SENTENCIA ABSOLUTORIA.
               </PText>
             </div>
           </div>
@@ -285,20 +280,19 @@ export default function AsesoramientoLegalInvestigacionPenal() {
           </div>
           <div className="left">
             <p className="about__subheading">
-              SOLUCIONES ALTERNATIVAS Y <span>PREVENCIÓN</span>
+              ESCENARIOS Y <span>RESULTADOS</span>
             </p>
-            <h2 className="about__heading">MINIMIZACIÓN DE IMPACTO</h2>
+            <h2 className="about__heading">BUSCANDO LA ABSOLUCIÓN</h2>
             <p className="about__subheading">
-              <span>TRANQUILIDAD FUTURA</span>
+              <span>O LA PENA MÁS JUSTA</span>
             </p>
             <div className="about__info">
               <PText>
-                EN CIERTOS CASOS, LA MEJOR ESTRATEGIA PUEDE SER LA NEGOCIACIÓN O
-                LA BÚSQUEDA DE SALIDAS ALTERNATIVAS AL PROCESO PENAL. ANALIZO
-                CADA ESCENARIO PARA DETERMINAR SI ES CONVENIENTE BUSCAR ACUERDOS
-                REPARATORIOS O SUSPENSIONES CONDICIONALES QUE EVITEN
-                ANTECEDENTES PENALES Y EL DESGASTE DE UN JUICIO. MI PRIORIDAD ES
-                SIEMPRE SU LIBERTAD.
+                TRABAJAMOS INCANSABLEMENTE POR SU ABSOLUCIÓN (RATIFICACIÓN DE
+                INOCENCIA). SIN EMBARGO, EN ESCENARIOS COMPLEJOS, TAMBIÉN
+                PREPARAMOS ESTRATEGIAS SUBSIDIARIAS PARA DISCUTIR LA TIPICIDAD,
+                ATENUANTES TRASCENDENTALES O LA SUSPENSIÓN CONDICIONAL DE LA
+                PENA, MINIMIZANDO CUALQUIER IMPACTO EN SU PROYECTO DE VIDA.
               </PText>
             </div>
           </div>

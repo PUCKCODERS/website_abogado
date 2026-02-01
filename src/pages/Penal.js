@@ -227,10 +227,15 @@ export default function Penal() {
                 text="DELITOS CONTRA EL PATRIMONIO"
               />
             </Link>
-            <ContactInfoItem
-              icon={<CgFileDocument />}
-              text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"
-            />
+            <Link
+              to="/delitos-contra-la-administracion-publica"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<CgFileDocument />}
+                text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScaleRight />}
               text="DELITOS INFORMÁTICOS"

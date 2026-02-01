@@ -27,6 +27,7 @@ import IndultosYConmutacionesDePenas from "./pages/SubPaginas/Penal/INDULTOS_Y_C
 import ReparacionDelDano from "./pages/SubPaginas/Penal/REPARACION_DEL_DANO";
 import DelitosContraLasPersonasYLaVida from "./pages/SubPaginas/Penal/DELITOS_CONTRA_LAS_PERSONAS_Y_LA_VIDA";
 import DelitosContraElPatrimonio from "./pages/SubPaginas/Penal/DELITOS_CONTRA_EL_PATRIMONIO";
+import DelitosContraLaAdministracionPublica from "./pages/SubPaginas/Penal/DELITOS_CONTRA_LA_ADMINISTRACION_PUBLICA";
 
 export default function App() {
   return (
@@ -77,6 +78,10 @@ export default function App() {
           <Route
             path="/delitos-contra-el-patrimonio"
             element={<DelitosContraElPatrimonio />}
+          />
+          <Route
+            path="/delitos-contra-la-administracion-publica"
+            element={<DelitosContraLaAdministracionPublica />}
           />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />

@@ -13,11 +13,11 @@ import { FaRocket } from "react-icons/fa";
 const AdvantagesStyles = styled.div`
   padding: 10rem 0;
   .contactBanner__wrapper {
-    background-color: var(--deep-dark);
+    background-color: #1e293b;
     border-radius: 12px;
     padding: 5rem 0rem;
     text-align: center;
-    box-shadow: 17px 11px 23px #000;
+    box-shadow: 6px 6px 6px #000;
   }
   .about__subheading__up {
     margin-top: 3rem;

@@ -10,11 +10,12 @@ const ItemStyles = styled.div`
   align-items: center;
   gap: 2rem;
   border-radius: 8px;
+  border: 2px solid var(--gray-2);
   margin-bottom: 2rem;
-  box-shadow: 17px 11px 23px #000;
+  box-shadow: 6px 6px 6px #000;
   .icon {
     color: var(--white);
-    background-color: var(--gray-2);
+    background-color: #000;
     padding: 1.3rem;
     align-items: center;
     justify-content: center;

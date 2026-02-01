@@ -19,10 +19,11 @@ const TestimonialSectionStyles = styled.div`
     width: 100%;
     height: fit-content;
     padding: 3rem;
-    background-color: var(--deep-dark);
+    background-color: #000;
     border-radius: 12px;
+    border: 2px solid var(--gray-2);
     margin-top: 5rem;
-    box-shadow: 17px 11px 23px #000;
+    box-shadow: 6px 6px 6px #000;
   }
   .testimonial__desc {
     .para {
@@ -55,8 +56,9 @@ const TestimonialSectionStyles = styled.div`
     background-color: var(--deep-dark);
     padding: 0.5rem 2rem;
     border-radius: 8px;
+    border: 1px solid var(--gray-2);
     cursor: pointer;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 3px 3px 3px #000;
   }
 }
 .fade-enter-active {
@@ -80,19 +82,19 @@ const TestimonialSectionStyles = styled.div`
 export default function TestimonialsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeSlide = testimonials[activeIndex];
-  
+
   // Agregamos useRef para evitar el error con findDOMNode
   const nodeRef = useRef(null);
 
   function handleNext() {
     setActiveIndex((prevIndex) =>
-      prevIndex >= testimonials.length - 1 ? 0 : prevIndex + 1
+      prevIndex >= testimonials.length - 1 ? 0 : prevIndex + 1,
     );
   }
 
   function handlePrev() {
     setActiveIndex((prevIndex) =>
-      prevIndex <= 0 ? testimonials.length - 1 : prevIndex - 1
+      prevIndex <= 0 ? testimonials.length - 1 : prevIndex - 1,
     );
   }
 

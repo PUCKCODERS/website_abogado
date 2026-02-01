@@ -22,7 +22,7 @@ const FormStyles = styled.form`
     border: 2px solid var(--gray-1);
     border-radius: 8px;
     margin-top: 1rem;
-    box-shadow: 17px 11px 23px #000;
+    box-shadow: 6px 6px 6px #000;
   }
   textarea {
     min-height: 250px;
@@ -38,7 +38,7 @@ const FormStyles = styled.form`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 17px 11px 23px #000;
+    box-shadow: 6px 6px 6px #000;
   }
   .error {
     color: red;
@@ -53,7 +53,7 @@ const SuccessMessageStyles = styled.div`
   background-color: var(--deep-dark);
   border-radius: 8px;
   border: 2px solid var(--gray-1);
-  box-shadow: 17px 11px 23px #000;
+  box-shadow: 6px 6px 6px #000;
 
   img {
     width: 100px;

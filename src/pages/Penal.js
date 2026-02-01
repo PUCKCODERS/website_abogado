@@ -242,10 +242,12 @@ export default function Penal() {
                 text="DELITOS INFORMÁTICOS"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScale />}
-              text="DELITOS ECONÓMICOS"
-            />
+            <Link to="/delitos-economicos" style={{ textDecoration: "none" }}>
+              <ContactInfoItem
+                icon={<FaBalanceScale />}
+                text="DELITOS ECONÓMICOS"
+              />
+            </Link>
             <ContactInfoItem
               icon={<MdAccountBalance />}
               text="DELITOS INTERNACIONALES"

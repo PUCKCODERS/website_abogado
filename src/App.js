@@ -25,6 +25,7 @@ import SolicitudDeMedidasCautelares from "./pages/SubPaginas/Penal/SOLICITUD_DE_
 import RecursosPenales from "./pages/SubPaginas/Penal/RECURSOS_PENALES";
 import IndultosYConmutacionesDePenas from "./pages/SubPaginas/Penal/INDULTOS_Y_CONMUTACIONES_DE_PENAS";
 import ReparacionDelDano from "./pages/SubPaginas/Penal/REPARACION_DEL_DANO";
+import DelitosContraLasPersonasYLaVida from "./pages/SubPaginas/Penal/DELITOS_CONTRA_LAS_PERSONAS_Y_LA_VIDA";
 
 export default function App() {
   return (
@@ -68,6 +69,10 @@ export default function App() {
             element={<IndultosYConmutacionesDePenas />}
           />
           <Route path="/reparacion-del-dano" element={<ReparacionDelDano />} />
+          <Route
+            path="/delitos-contra-las-personas-y-la-vida"
+            element={<DelitosContraLasPersonasYLaVida />}
+          />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

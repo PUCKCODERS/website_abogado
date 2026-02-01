@@ -209,10 +209,15 @@ export default function Penal() {
                 text="REPARACIÓN DEL DAÑO"
               />
             </Link>
-            <ContactInfoItem
-              icon={<MdAccountBalance />}
-              text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"
-            />
+            <Link
+              to="/delitos-contra-las-personas-y-la-vida"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<MdAccountBalance />}
+                text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScaleLeft />}
               text="DELITOS CONTRA EL PATRIMONIO"

@@ -177,10 +177,15 @@ export default function Penal() {
                 text="NEGOCIACIÓN DE ACUERDOS CON LA FISCALÍA"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScaleRight />}
-              text="SOLICITUD DE MEDIDAS CAUTELARES"
-            />
+            <Link
+              to="/solicitud-de-medidas-cautelares"
+              style={{ textDecoration: "none" }}
+            >
+              <ContactInfoItem
+                icon={<FaBalanceScaleRight />}
+                text="SOLICITUD DE MEDIDAS CAUTELARES"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScale />}
               text="RECURSOS PENALES"

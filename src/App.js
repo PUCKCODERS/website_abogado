@@ -30,6 +30,7 @@ import DelitosContraElPatrimonio from "./pages/SubPaginas/Penal/DELITOS_CONTRA_E
 import DelitosContraLaAdministracionPublica from "./pages/SubPaginas/Penal/DELITOS_CONTRA_LA_ADMINISTRACION_PUBLICA";
 import DelitosInformaticos from "./pages/SubPaginas/Penal/DELITOS_INFORMATICOS";
 import DelitosEconomicos from "./pages/SubPaginas/Penal/DELITOS_ECONOMICOS";
+import DelitosInternacionales from "./pages/SubPaginas/Penal/DELITOS_INTERNACIONALES";
 
 export default function App() {
   return (
@@ -90,6 +91,10 @@ export default function App() {
             element={<DelitosInformaticos />}
           />
           <Route path="/delitos-economicos" element={<DelitosEconomicos />} />
+          <Route
+            path="/delitos-internacionales"
+            element={<DelitosInternacionales />}
+          />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

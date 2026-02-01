@@ -236,10 +236,12 @@ export default function Penal() {
                 text="DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScaleRight />}
-              text="DELITOS INFORMÁTICOS"
-            />
+            <Link to="/delitos-informaticos" style={{ textDecoration: "none" }}>
+              <ContactInfoItem
+                icon={<FaBalanceScaleRight />}
+                text="DELITOS INFORMÁTICOS"
+              />
+            </Link>
             <ContactInfoItem
               icon={<FaBalanceScale />}
               text="DELITOS ECONÓMICOS"

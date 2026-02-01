@@ -203,10 +203,12 @@ export default function Penal() {
             </Link>
           </div>
           <div className="right__right">
-            <ContactInfoItem
-              icon={<FaBalanceScale />}
-              text="REPARACIÓN DEL DAÑO"
-            />
+            <Link to="/reparacion-del-dano" style={{ textDecoration: "none" }}>
+              <ContactInfoItem
+                icon={<FaBalanceScale />}
+                text="REPARACIÓN DEL DAÑO"
+              />
+            </Link>
             <ContactInfoItem
               icon={<MdAccountBalance />}
               text="DELITOS CONTRA LAS PERSONAS Y LA VIDA"

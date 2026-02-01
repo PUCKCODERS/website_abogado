@@ -186,10 +186,12 @@ export default function Penal() {
                 text="SOLICITUD DE MEDIDAS CAUTELARES"
               />
             </Link>
-            <ContactInfoItem
-              icon={<FaBalanceScale />}
-              text="RECURSOS PENALES"
-            />
+            <Link to="/recursos-penales" style={{ textDecoration: "none" }}>
+              <ContactInfoItem
+                icon={<FaBalanceScale />}
+                text="RECURSOS PENALES"
+              />
+            </Link>
             <ContactInfoItem
               icon={<MdAccountBalance />}
               text="INDULTOS Y CONMUTACIONES DE PENAS"

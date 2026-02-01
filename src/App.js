@@ -22,6 +22,7 @@ import DefensaEnCasoDeJuicioPenal from "./pages/SubPaginas/Penal/DEFENSA_EN_CASO
 import RepresentacionEnCasoDeApelacion from "./pages/SubPaginas/Penal/REPRESENTACION_EN_CASO_DE_APELACION";
 import NegociacionDeAcuerdosConLaFiscalia from "./pages/SubPaginas/Penal/NEGOCIACION_DE_ACUERDOS_CON_LA_FISCALIA";
 import SolicitudDeMedidasCautelares from "./pages/SubPaginas/Penal/SOLICITUD_DE_MEDIDAS_CAUTELARES";
+import RecursosPenales from "./pages/SubPaginas/Penal/RECURSOS_PENALES";
 
 export default function App() {
   return (
@@ -59,6 +60,7 @@ export default function App() {
             path="/solicitud-de-medidas-cautelares"
             element={<SolicitudDeMedidasCautelares />}
           />
+          <Route path="/recursos-penales" element={<RecursosPenales />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

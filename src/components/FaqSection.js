@@ -17,6 +17,7 @@ const FaqStyles = styled.div`
     background: linear-gradient(145deg, var(--deep-dark), #1a222f);
     border-radius: 20px;
     border: 2px solid #363636;
+    font-family: "Roboto Mono";
 
     h3 {
       font-size: 2.4rem;

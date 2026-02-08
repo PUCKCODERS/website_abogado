@@ -3,7 +3,6 @@ import PText from "../../../components/PText";
 import AboutImg from "../../../assets/images/about-page-img.png";
 import styled from "styled-components";
 import ContactBanner from "../../../components/ContactBanner";
-import Advantages from "../../../components/Advantages";
 import SectionTitle from "../../../components/SectionTitle";
 import ServicesSectionItem from "../../../components/ServicesSectionItem";
 import { MdAccountBalance } from "react-icons/md";

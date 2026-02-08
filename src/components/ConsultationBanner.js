@@ -20,32 +20,41 @@ const ConsultationBannerStyles = styled.div`
   }
 
   .consultation__item {
-    background-color: var(--black);
+    background-color: var(--dark-bg);
     padding: 2rem;
     border-radius: 12px;
-    text-align: center;
-    border: 1px solid var(--gray-2);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: left;
     transition: 0.3s ease;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     &:hover {
       transform: scale(1.05);
       border-color: var(--gray-1);
-      background-color: #1e293b;
     }
   }
 
   .consultation__icon {
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-right: 1.5rem;
     color: var(--gray-1);
-    display: inline-block;
     /* Aplicamos la animación aquí */
     animation: ${float} 3s ease-in-out infinite;
+    svg {
+      width: 4rem;
+      height: 4rem;
+    }
   }
 
   .consultation__title {

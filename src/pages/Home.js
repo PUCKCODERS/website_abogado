@@ -7,6 +7,7 @@ import TestimonialsSection from "../components/TestimonialsSection";
 import ContactBanner from "../components/ContactBanner";
 import FeaturesBanner from "../components/FeaturesBanner";
 import ConsultationBanner from "../components/ConsultationBanner";
+import FaqSection from "../components/FaqSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ServiceSection />
       <ProjectsSection />
       <TestimonialsSection />
+      <FaqSection />
       <ContactBanner />
     </div>
   );

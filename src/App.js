@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import ConsultaLegal from "./pages/ConsultaLegal";
 import Footer from "./components/Footer";
 import Penal from "./pages/Penal";
 import Familia from "./pages/Familia";
@@ -95,6 +96,7 @@ export default function App() {
             path="/delitos-internacionales"
             element={<DelitosInternacionales />}
           />
+          <Route path="/ConsultaLegal" element={<ConsultaLegal />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

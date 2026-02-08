@@ -313,7 +313,7 @@ export default function FaqSection() {
           <h3>
             Resuelva aquí sus dudas más frecuentes sobre el Servicio de Asesoría
             Jurídica Legal. Cuento con la experiencia y el respaldo necesario
-            para atender sus requerimientos en Quito.
+            para atender sus requerimientos
           </h3>
         </div>
 

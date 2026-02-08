@@ -136,6 +136,17 @@ export default function NavMenu() {
         </li>
         <li>
           <NavLink
+            to="/ConsultaLegal"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            CONSULTA LEGAL
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/projects"
             onClick={() => SetShowNav(!showNav)}
             role="button"

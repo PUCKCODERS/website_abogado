@@ -42,6 +42,13 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    p {
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 12px;
+      display: inline-block;
+    }
   }
   .hero__social,
   .hero__scrollDown {

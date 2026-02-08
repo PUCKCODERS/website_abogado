@@ -16,7 +16,7 @@ const FaqStyles = styled.div`
     padding: 4rem;
     background: linear-gradient(145deg, var(--deep-dark), #1a222f);
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.03);
 
     h3 {
       font-size: 2.4rem;
@@ -37,7 +37,7 @@ const FaqStyles = styled.div`
   }
 
   .faq__item {
-    background-color: var(--deep-dark);
+    background-color: #000;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.03);
@@ -59,7 +59,7 @@ const FaqStyles = styled.div`
 
     &:hover {
       transform: translateY(-5px);
-      border-color: rgba(255, 255, 255, 0.1);
+      border-color: #fff;
     }
 
     &.active {
@@ -108,7 +108,6 @@ const FaqStyles = styled.div`
     transform: rotate(135deg);
     background-color: var(--gray-1);
     color: var(--deep-dark);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   }
 
   .faq__content {

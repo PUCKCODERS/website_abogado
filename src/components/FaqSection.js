@@ -10,13 +10,13 @@ const FaqStyles = styled.div`
   .faq__header-strip {
     text-align: center;
     margin-bottom: 8rem;
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 4rem;
     background: linear-gradient(145deg, var(--deep-dark), #1a222f);
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.03);
+    border: 2px solid #363636;
 
     h3 {
       font-size: 2.4rem;
@@ -40,7 +40,7 @@ const FaqStyles = styled.div`
     background-color: #000;
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 2px solid #363636;
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     position: relative;
 

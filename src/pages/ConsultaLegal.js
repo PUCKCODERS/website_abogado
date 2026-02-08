@@ -128,14 +128,19 @@ const ConsultaLegalStyles = styled.div`
     gap: 3rem;
   }
   .consulta__process-item {
-    background-color: var(--deep-dark);
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
     padding: 3rem 2rem;
     border-radius: 12px;
     text-align: center;
-    border: 1px solid var(--gray-2);
+    border: 1px solid #334155;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.3s ease all;
+    &:hover {
+      border-color: var(--gray-1);
+      transform: translateY(-5px);
+    }
   }
   .consulta__process-icon {
     font-size: 4rem;
@@ -171,6 +176,15 @@ const ConsultaLegalStyles = styled.div`
     grid-template-columns: 1.5fr 1fr;
     gap: 2rem;
     align-items: stretch;
+    .consulta__phone-item,
+    .consulta__phone-right {
+      background: linear-gradient(145deg, #1e293b, #0f172a);
+      border: 1px solid #334155;
+      &:hover {
+        border-color: #60a5fa;
+        transform: translateY(-5px);
+      }
+    }
   }
   .consulta__phone-left {
     display: flex;
@@ -250,15 +264,26 @@ const ConsultaLegalStyles = styled.div`
     grid-template-columns: 1fr 1.5fr;
     gap: 2rem;
     align-items: stretch;
+    .consulta__phone-item,
+    .consulta__phone-right {
+      background: linear-gradient(145deg, #242424, #121212);
+      border: 1px solid #333;
+      &:hover {
+        border-color: #25d366;
+        transform: translateY(-5px);
+      }
+    }
   }
   .consulta__form {
     margin-top: 8rem;
     width: 100%;
-    background-color: var(--deep-dark);
+    background: linear-gradient(145deg, #1c1c1c, #252525);
     padding: 5rem;
     border-radius: 12px;
-    border: 1px solid var(--gray-2);
+    border: 1px solid #333;
+    border-top: 4px solid #d4af37;
     text-align: left;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   }
   .consulta__form-heading {
     font-size: 2.6rem;
@@ -371,6 +396,10 @@ const ConsultaLegalStyles = styled.div`
     }
   }
   .appointment__info {
+    background: linear-gradient(145deg, #1c1c1c, #252525);
+    border: 1px solid #333;
+    border-top: 4px solid #d4af37;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     padding: 2rem;
     border-radius: 12px;
     height: auto;
@@ -628,7 +657,7 @@ ${appointmentData.message}
             TÉCNICA DE PERSONAS NATURALES Y JURÍDICAS»
           </p>
           <div className="consulta__price">
-            ASESORÍA JURÍDICA INTEGRAL: HONORARIOS PREFERENCIALES $30
+            ASESORÍA JURÍDICA INTEGRAL: HONORARIOS PREFERENCIALES
           </div>
           <div className="consulta__info">
             <h2 className="consulta__info-heading">
@@ -639,10 +668,10 @@ ${appointmentData.message}
               asistencia profesional, estoy presto a brindarle el soporte
               necesario. Absolveré sus inquietudes con prontitud a través de mis
               canales de comunicación habilitados. Pongo a su disposición una
-              Asesoría Jurídica Integral por un honorario de $30. Cabe destacar
-              que, si me confía el patrocinio de su causa, el valor de la
-              consulta será abonado a los honorarios totales del proceso.
-              Asegure sus derechos con la mejor defensa técnica.
+              Asesoría Jurídica Integral. Cabe destacar que, si me confía el
+              patrocinio de su causa, el valor de la consulta será abonado a los
+              honorarios totales del proceso. Asegure sus derechos con la mejor
+              defensa técnica.
             </p>
             <h3 className="consulta__methods-heading">
               Deje su caso en manos de expertos y consulte en el menor tiempo

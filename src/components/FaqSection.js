@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { MdAdd, MdRemove } from "react-icons/md";
+import { MdAdd } from "react-icons/md";
 import PText from "./PText";
 
 const FaqStyles = styled.div`
@@ -8,88 +8,138 @@ const FaqStyles = styled.div`
   background-color: var(--dark-bg);
 
   .faq__header-strip {
-    background-color: var(--deep-dark);
-    padding: 3rem 2rem;
     text-align: center;
-    border-radius: 12px;
-    margin-bottom: 5rem;
-    border: 1px solid var(--gray-2);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 8rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
+    background: linear-gradient(145deg, var(--deep-dark), #1a222f);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
 
     h3 {
-      font-size: 2rem;
+      font-size: 2.4rem;
       font-family: "Montserrat SemiBold";
       color: var(--white);
-      line-height: 1.5;
+      line-height: 1.6;
+      font-weight: 500;
+      letter-spacing: 0.5px;
     }
+  }
+
+  .faq__wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
   }
 
   .faq__item {
     background-color: var(--deep-dark);
-    margin-bottom: 2rem;
     border-radius: 8px;
-    border: 1px solid var(--gray-2);
     overflow: hidden;
-    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--gray-1);
+      transform: scaleY(0);
+      transition: transform 0.4s ease;
+      transform-origin: bottom;
+    }
 
     &:hover {
-      border-color: var(--gray-1);
+      transform: translateY(-5px);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    &.active {
+      background-color: #1a222f;
+      border-color: rgba(255, 255, 255, 0.2);
+
+      &::before {
+        transform: scaleY(1);
+        transform-origin: top;
+      }
     }
   }
 
   .faq__title {
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    background-color: transparent;
     transition: 0.3s ease;
 
     h4 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-family: "Montserrat Bold";
       color: var(--gray-1);
       text-transform: uppercase;
+      letter-spacing: 1.5px;
     }
 
     .icon {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
       color: var(--gray-1);
-      transition: 0.3s ease;
+      transition: all 0.4s ease;
+      background-color: rgba(255, 255, 255, 0.05);
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
+  }
+
+  .faq__item.active .icon {
+    transform: rotate(135deg);
+    background-color: var(--gray-1);
+    color: var(--deep-dark);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   }
 
   .faq__content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
-    background-color: #000;
+    transition: max-height 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
 
     .text-wrapper {
-      padding: 2rem;
-      border-top: 1px solid var(--gray-2);
+      padding: 0 3rem 3rem 3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
 
       p {
-        font-size: 1.6rem;
-        line-height: 1.8;
-        color: var(--gray-1);
+        font-size: 1.7rem;
+        line-height: 1.9;
+        color: #d1d5db;
+        margin-top: 2rem;
+        font-weight: 300;
       }
     }
   }
 
-  .faq__item.active {
-    .faq__content {
-      max-height: 1000px; /* Altura suficiente para el contenido */
-    }
-    .faq__title {
-      background-color: var(--gray-2);
-    }
+  .faq__item.active .faq__content {
+    max-height: 1200px;
   }
 
   @media only screen and (max-width: 768px) {
     .faq__header-strip h3 {
       font-size: 1.6rem;
+    }
+    .faq__title {
+      padding: 2rem;
     }
     .faq__title h4 {
       font-size: 1.5rem;
@@ -113,18 +163,19 @@ export default function FaqSection() {
       title: "¿POR QUÉ ELEGIRME?",
       desc: (
         <>
-          Consultoría legal personalizada en Quito.
+          Consultoría legal de excelencia y rigor técnico en Quito.
           <br />
           <br />
-          ¡Elija mi asesoría legal! Cuento con amplia experiencia, atención
-          personalizada y resultados comprobados. Ofrezco un enfoque integral en
-          diversas áreas del derecho, manteniendo una comunicación transparente
-          y constante con mis clientes.
+          Mi ejercicio profesional se fundamenta en la solvencia jurídica, la
+          experiencia litigiosa y un compromiso inquebrantable con los intereses
+          de mis representados. Ofrezco una estrategia legal integral, diseñada
+          a la medida de cada caso, garantizando una comunicación transparente y
+          resultados tangibles.
           <br />
           <br />
-          Si necesita una consulta con un abogado en Ecuador, me comprometo a
-          brindarle un servicio legal de calidad para proteger sus derechos y
-          resolver sus problemas legales.
+          Si requiere asistencia jurídica en Ecuador, pongo a su disposición mi
+          capacidad para blindar sus derechos y resolver conflictos legales con
+          la máxima eficacia y profesionalismo.
         </>
       ),
     },
@@ -132,20 +183,18 @@ export default function FaqSection() {
       title: "EXPERIENCIA",
       desc: (
         <>
-          Encuentre la solución a su duda legal con asesoría especializada en
-          Quito.
+          Soluciones jurídicas respaldadas por una sólida trayectoria.
           <br />
           <br />
-          Mi práctica legal se destaca por una amplia experiencia y
-          conocimientos especializados en diversas áreas del derecho. Brindo
-          representación personalizada, enfocada en sus necesidades
-          individuales, con el objetivo de lograr una resolución efectiva de su
-          caso.
+          Cuento con una vasta experiencia en la resolución de conflictos
+          complejos en diversas ramas del Derecho. Mi práctica se distingue por
+          la habilidad para diseñar estrategias procesales efectivas y una
+          capacidad de negociación orientada al éxito.
           <br />
           <br />
-          Como abogado en Quito, mi compromiso, confidencialidad y habilidades
-          de negociación me convierten en la elección adecuada para proteger sus
-          intereses legales y obtener resultados positivos.
+          Como su abogado de confianza en Quito, combino el conocimiento
+          profundo de la normativa vigente con una destreza práctica que asegura
+          la protección óptima de su patrimonio y libertad.
         </>
       ),
     },
@@ -153,21 +202,19 @@ export default function FaqSection() {
       title: "COMPROMISO Y ÉTICA",
       desc: (
         <>
-          Abogado en Quito, estudio jurídico | Consulte ahora con un experto
-          legal.
+          Integridad profesional y defensa leal de sus intereses.
           <br />
           <br />
-          Mi despacho se distingue por la dedicación y ética profesional. Me
-          comprometo a brindar un servicio personalizado, respetando altos
-          estándares éticos y actuando con transparencia.
+          La ética y la transparencia son los pilares de mi despacho. Me
+          comprometo a gestionar su causa bajo los más altos estándares
+          deontológicos, ofreciendo un pronóstico honesto y realista sobre la
+          viabilidad de su caso.
           <br />
           <br />
-          Con amplia experiencia y conocimientos especializados, ofrezco
-          estrategias legales adaptadas a sus necesidades. Mi enfoque centrado
-          en el cliente se basa en la atención al detalle, la comunicación clara
-          y la búsqueda de resultados favorables. Al elegirme, puede confiar en
-          que protegeré sus derechos y trabajaré en su beneficio de manera
-          diligente y ética.
+          Mi enfoque prioriza la atención al detalle y la confidencialidad
+          absoluta. Al elegir mi representación, usted cuenta con un aliado
+          diligente que trabajará incansablemente para garantizar el respeto
+          irrestricto a sus derechos fundamentales.
         </>
       ),
     },
@@ -175,21 +222,18 @@ export default function FaqSection() {
       title: "ESPECIALISTAS",
       desc: (
         <>
-          Cuento con especialización en diversas áreas legales, no lo dude más y
-          contacte conmigo en Quito.
+          Dominio técnico multidisciplinario para una defensa integral.
           <br />
           <br />
-          Destaco como un abogado en Quito que ofrece servicios legales en
-          diversas áreas del derecho, tales como civil, mercantil, laboral,
-          penal, administrativo, familiar, entre otras. Le proporcionaré
-          asesoramiento y representación integral, personalizada y eficaz,
-          buscando la mejor solución para sus intereses y derechos como cliente.
+          Brindo asesoría experta en áreas críticas como Derecho Civil, Penal,
+          Laboral, Mercantil, Administrativo y de Familia. Esta visión global me
+          permite anticipar contingencias y ofrecer soluciones robustas que
+          abarcan todas las aristas legales de su situación.
           <br />
           <br />
-          Elija mi asesoría debido a mi amplia gama de especialidades legales,
-          mi comprobada experiencia, mi enfoque personalizado, mis servicios
-          legales integrales, mi guía basada en la honestidad y transparencia, y
-          mi excepcional atención al cliente.
+          Confíe en una gestión legal caracterizada por la actualización
+          constante, la especialización técnica y una dedicación exclusiva para
+          obtener la mejor resolución posible en favor de sus intereses.
         </>
       ),
     },
@@ -197,18 +241,18 @@ export default function FaqSection() {
       title: "FACILIDADES",
       desc: (
         <>
-          Consulte su duda legal conmigo en Quito en línea.
+          Accesibilidad y gestión moderna de servicios legales.
           <br />
           <br />
-          Como abogado en Quito, le ofrezco honorarios adaptados, consultas en
-          línea, atención telefónica y servicios integrales en todas las ramas
-          del derecho.
+          Entiendo la importancia de la agilidad en el mundo jurídico. Ofrezco
+          modalidades de atención flexibles, incluyendo consultas presenciales y
+          telemáticas, así como una estructura de honorarios transparente y
+          adaptada a la complejidad del asunto.
           <br />
           <br />
-          Me comprometo a proteger sus intereses, actuar con profesionalismo y
-          ética, y brindarle un servicio de calidad que se adapte a sus
-          necesidades individuales. Confíe en mí para luchar por sus derechos y
-          ofrecerle soluciones legales apropiadas.
+          Mi objetivo es brindarle un servicio de calidad superior, eliminando
+          barreras y asegurando que usted disponga del respaldo legal necesario
+          en el momento oportuno, con total claridad y profesionalismo.
         </>
       ),
     },
@@ -216,39 +260,29 @@ export default function FaqSection() {
       title: "TIPS PARA ELEGIR ABOGADO",
       desc: (
         <>
-          Si tiene una duda legal y cuenta con una lista de abogados en Quito
-          pero no sabe en quien confiar, consulte los siguientes tips para
-          encontrar el mejor abogado para su caso:
+          Criterios esenciales para garantizar una representación efectiva.
           <br />
           <br />
-          Elegir al mejor abogado que se adapte a su caso de derecho es una
-          tarea importante para garantizar una representación legal efectiva. A
-          continuación, le presento algunas pautas para ayudarle en este
-          proceso:
+          La elección de su defensa técnica es determinante para el éxito de su
+          caso. Considere las siguientes pautas profesionales:
           <br />
           <br />
-          <strong>Defina sus necesidades legales:</strong> Antes de buscar un
-          abogado, determine claramente cuál es el problema legal que enfrenta.
-          Identifique la especialidad legal necesaria para su caso.
+          <strong>Definición del Conflicto:</strong> Identifique con claridad la
+          naturaleza de su problema para buscar la especialización adecuada.
           <br />
-          <strong>Investigue y recopile información:</strong> Realice una
-          investigación exhaustiva. En mi despacho, cuento con experiencia en
-          diversas áreas del derecho ecuatoriano.
+          <strong>Trayectoria Acreditada:</strong> Valide la experiencia y los
+          antecedentes de éxito del profesional en litigios similares.
           <br />
-          <strong>Revise la experiencia y especialización:</strong> Verifique la
-          experiencia y antecedentes del abogado en el área específica del
-          derecho que necesita.
+          <strong>Reputación y Ética:</strong> Investigue la solvencia moral y
+          las referencias del abogado. Mi despacho se honra de mantener una
+          reputación intachable.
           <br />
-          <strong>Verifique la reputación y credenciales:</strong> Es importante
-          investigar la reputación. Mi despacho mantiene una elevada tasa de
-          éxito y numerosas reseñas positivas de mis clientes.
+          <strong>Transparencia en Honorarios:</strong> Exija claridad absoluta
+          sobre los costos y condiciones económicas desde la primera consulta.
           <br />
-          <strong>Programe consultas iniciales:</strong> Aproveche esta
-          oportunidad para discutir su caso y plantear sus preocupaciones.
-          <br />
-          <strong>Discuta los honorarios y costos:</strong> Hable abiertamente
-          sobre los honorarios y costos asociados con el caso. Es importante
-          tener claridad en este aspecto desde el principio.
+          <strong>Comunicación Asertiva:</strong> Asegúrese de que su abogado
+          posea la capacidad de explicarle su situación jurídica con claridad y
+          empatía.
         </>
       ),
     },
@@ -256,18 +290,17 @@ export default function FaqSection() {
       title: "CONSULTE SU CASO Y DUDA LEGAL",
       desc: (
         <>
-          Asesórese legalmente en mi despacho en Quito.
+          Diagnóstico jurídico y planificación estratégica.
           <br />
           <br />
-          Mi práctica legal en Quito se destaca por su alta tasa de éxito y
-          reputación en el campo. Cuento con conocimientos actualizados y
-          ofrezco representación integral y un enfoque centrado en el cliente.
+          Le invito a agendar una consulta profesional para evaluar la
+          viabilidad de su caso. A través de un análisis riguroso,
+          determinaremos la mejor ruta legal para proteger sus intereses.
           <br />
           <br />
-          Trabajo estrechamente con usted, adaptando estrategias legales a sus
-          necesidades específicas. Mi compromiso es brindarle resultados
-          positivos y proteger sus derechos en todos los aspectos de su caso
-          legal.
+          No deje sus derechos al azar. Permítame brindarle la seguridad
+          jurídica que necesita con una representación firme, experimentada y
+          orientada a resultados.
         </>
       ),
     },
@@ -300,7 +333,7 @@ export default function FaqSection() {
               >
                 <h4>{item.title}</h4>
                 <div className="icon">
-                  {activeIndex === index ? <MdRemove /> : <MdAdd />}
+                  <MdAdd />
                 </div>
               </div>
               <div className="faq__content">

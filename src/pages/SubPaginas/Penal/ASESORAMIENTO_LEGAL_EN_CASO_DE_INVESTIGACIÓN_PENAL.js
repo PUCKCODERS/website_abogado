@@ -109,12 +109,7 @@ const AboutPageStyles = styled.div`
     font-size: 3.6rem;
     margin-bottom: 3rem;
   }
-  .about__info {
-    margin-bottom: 4rem;
-    .para {
-      max-width: 100%;
-    }
-  }
+
   .right {
     img {
       border: 2px solid var(--gray-1);

@@ -44,10 +44,11 @@ const HeroStyles = styled.div`
     margin-top: -18rem;
     p {
       background-color: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(5px);
       padding: 2rem;
-      border-radius: 12px;
+      border-radius: 20px;
       display: inline-block;
+      box-shadow: 0 0 50px 30px rgba(0, 0, 0, 0.6);
     }
   }
   .hero__social,

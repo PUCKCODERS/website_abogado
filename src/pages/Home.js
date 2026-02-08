@@ -6,6 +6,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import TestimonialsSection from "../components/TestimonialsSection";
 import ContactBanner from "../components/ContactBanner";
 import FeaturesBanner from "../components/FeaturesBanner";
+import ConsultationBanner from "../components/ConsultationBanner";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <FeaturesBanner />
       <AboutSection />
+      <ConsultationBanner />
       <ServiceSection />
       <ProjectsSection />
       <TestimonialsSection />
